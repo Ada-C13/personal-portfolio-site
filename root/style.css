@@ -1,0 +1,35 @@
+/*
+
+Title  : Portfolio - Ada Cohort 13 - Space
+Author : Suely Barreto
+Date   : March 2020
+
+Uses at least one CSS file (likely named style.css)
+Has the following tags: <header>, <footer>, and <nav>
+Inside of the <nav>, there are links to all of the other pages
+*/
+nav { 
+  border:1px; 
+  background-color:#889; 
+  color:white; 
+  padding:6px; 
+} 
+a { 
+  text-decoration:none; 
+  color:white; 
+  font-size:20px; 
+} 
+.gfg { 
+  font-size:40px; 
+  color:#889; 
+  font-weight:bold; 
+  text-align:center; 
+} 
+.nav_tag { 
+  text-align:center; 
+  margin:30px 0; 
+}
+
+h1 {
+  color:#889
+}
