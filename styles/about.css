@@ -1,10 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+.underline {
+  border-bottom: 5px #148296 solid;
 }
 
 main {

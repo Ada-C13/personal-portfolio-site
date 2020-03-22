@@ -1,19 +1,9 @@
-* {
-  margin: 0;
-}
-
-body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-}
-
-
 /* main */
 main {
   position: relative;
   top: 100px;
   display: grid;
   grid-template-columns: 4fr 8fr;
-  grid-template-rows: 1fr 1fr;
   grid-template-areas: 
   "a p p p p p p p p p p p p"
   "b p p p p p p p p p p p p"
@@ -74,12 +64,10 @@ main > section > a:hover {
     line-height: 300px;
     justify-self: center;
   }
-}
 
-
-@media only screen and (max-width: 680px) {
   #about:hover img { 
     margin-top: 55px;
     width: 300px;
   }
 }
+
