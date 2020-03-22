@@ -4,6 +4,7 @@ main {
   top: 100px;
   display: grid;
   grid-template-columns: 4fr 8fr;
+  grid-template-rows: auto auto;
   grid-template-areas: 
   "a p p p p p p p p p p p p"
   "b p p p p p p p p p p p p"
