@@ -1,35 +1,173 @@
 /*
-
 Title  : Portfolio - Ada Cohort 13 - Space
 Author : Suely Barreto
 Date   : March 2020
-
-Uses at least one CSS file (likely named style.css)
-Has the following tags: <header>, <footer>, and <nav>
-Inside of the <nav>, there are links to all of the other pages
 */
-nav { 
-  border:1px; 
-  background-color:#889; 
-  color:white; 
-  padding:6px; 
-} 
-a { 
-  text-decoration:none; 
-  color:white; 
-  font-size:20px; 
-} 
-.gfg { 
-  font-size:40px; 
-  color:#889; 
-  font-weight:bold; 
-  text-align:center; 
-} 
-.nav_tag { 
-  text-align:center; 
-  margin:30px 0; 
+
+body {
+  background-color:#94C6E3; 
+  color:white;
+  margin: 0;
 }
 
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+}
+
+main {
+  color: #333333;
+  padding: 5px 0;
+  margin: 0 auto;
+}
+
+nav { 
+  border:1px; 
+  background-color:#94C6E3;
+  color:#4E4A45;
+  padding: 4px 0;
+  margin: 0 auto;
+  font-size:20px; 
+} 
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+  display: block;
+  color: #3399ff;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0 auto;
+}
+
+a { 
+  text-decoration:none; 
+  color:#333;
+} 
+
 h1 {
-  color:#889
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.about {
+  width: 700px;
+  border: 1px; 
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+.about img{
+  width: 30%;
+  height: 30%;
+}
+
+.song {
+  display: grid; /* changes the display to CSS Grid */
+  grid-template: 1fr / 1fr 1fr; /* creates a grid template with 1 row and 2 columns */
+  width: 700px;
+  border: 1px; 
+  padding: 0 0;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color : #94C6E3;
+}
+
+.song p {
+  line-height: 2px;   /* within paragraph */
+  margin-bottom: 5px; /* between paragraphs */
+}
+
+.song h2 {
+  grid-column: 1 / span 2; /* sets the song title to span across both columns */
+  text-align: left;
+}
+
+.verse {
+  color:#333;
+  margin-bottom: 20px;
+}
+
+.refrain {
+  color:#0000cc;
+  margin-bottom: 20px;
+}
+
+/* additional classes for defining which verses or refrains should be in the first column or the second column (see parodies.html) */
+.first-column {
+  grid-column: 1 / 2; /* the column starts on vertical line 1 and ends on line 2 */
+}
+
+.second-column {
+  grid-column: 2 / 3; /* the column starts on vertical line 2 and ends on line 3 */
+}
+
+.welcome {
+  text-align: center;
+  color:#333;
+}
+
+.welcome img {
+  width: 40%;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  width: 700px;
+  margin: 0 auto;
+
+  /* border: 1px; 
+  padding: 0 0;
+  font-size: 16px; */
+}
+
+.project h2 {
+  text-align: left;
+  margin-bottom: 0; /* between paragraphs */
+}
+
+.project a {
+  color:#0000cc;
+}
+
+.project img{
+  width: 70%;
+  height: 70%;
 }
