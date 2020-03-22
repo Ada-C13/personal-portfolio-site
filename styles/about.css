@@ -54,6 +54,7 @@ h2 {
 
 .intro, .bio, .favorites {
   padding: 20px;
+  line-height: 1.8;
 }
 
 
@@ -75,10 +76,6 @@ h2 {
     vertical-align: middle;
     margin-left: auto; 
     margin-right: auto;
-  }
-
-  .intro {
-    margin: 0;
   }
 
   .diamond-photo img {
