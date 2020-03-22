@@ -1,0 +1,29 @@
+main {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  color: #4e5151;
+}
+
+.underline {
+  border-bottom: 5px #CFBBAE solid;
+}
+
+
+.journal {
+  margin-bottom: 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+time {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
