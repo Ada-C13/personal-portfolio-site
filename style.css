@@ -6,40 +6,40 @@
         font-style: ;
         text-align: center;
     }
-    section {
+    /* section {
         padding: 20px;
         margin: 20px;
         background-color: white;
         border: 3px solid rgb(59, 58, 58);
         text-align: center
-    }
-    h1 {
+    } */
+    .sectiontitle {
         color: black;
         font-family: Optima;
         font-size: 40px;
         font-style: ;
         text-align: center;
     }
-    h2 {
+    .subtitle {
         color: black;
         font-family: Optima;
         font-size: 25px;
         font-style: ;
         text-align: center;
     }
-    h3 {
-        color: rgb(5, 5, 5);
-        font-family: Optima;
-        font-size: 12px;
-        font-style: ;
-        text-align: left;
-    }
-    h4 {
+    .bullet {
         color: rgb(5, 5, 5);
         font-family: Optima;
         font-size: 18px;
+        font-style: ;
+        text-align: left;
+    }
+    .subbullet {
+        color: rgb(5, 5, 5);
+        font-family: Optima;
+        font-size: 16px;
         font-style: italic;
-        text-align: center;
+        text-align: left;
     }
     p {
         color: rgb(5, 5, 5);
@@ -48,15 +48,29 @@
         font-style: ;
         text-align: center;
     }
+    .tab {
+        color: rgb(5, 5, 5);
+        font-family: Optima;
+        font-size: 18px;
+        font-style: ;
+        text-align: left;
+    }
+    .subtab {
+        color: rgb(5, 5, 5);
+        font-family: Optima;
+        font-size: 16px;
+        font-style: ;
+        text-align: left;
+    }
     a:link,
     a:visited {
-        color: rgb(12, 5, 5);
+        color: rgb(15, 15, 15);
     }
     a:hover {
         color: rgb(216, 84, 124);
     }
     a:active {
-        background: green;
+        background: rgb(19, 204, 218);
         color: lavenderblush;
     }
 </style>
