@@ -1,24 +1,15 @@
 .content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
 }
 
-h2 {
-  font-family: 'PT Serif', serif;
-  font-size: 18px;
+.content-container > section {
+  padding: 1em;
+  text-align: center;
 }
 
-p {
-  font-family: 'PT Serif', serif;
-}
-
-.project {
-  text-align: justify;
-  padding: 2em;
-}
-
-.project-link {
-  color: rgba(179, 110, 144, 0.945);
-  font-family: 'PT Serif', serif;
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
