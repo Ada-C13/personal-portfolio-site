@@ -16,7 +16,7 @@
     h1 {
         color: black;
         font-family: Optima;
-        font-size: 35px;
+        font-size: 40px;
         font-style: ;
         text-align: center;
     }
@@ -28,6 +28,13 @@
         text-align: center;
     }
     h3 {
+        color: rgb(5, 5, 5);
+        font-family: Optima;
+        font-size: 12px;
+        font-style: ;
+        text-align: left;
+    }
+    h4 {
         color: rgb(5, 5, 5);
         font-family: Optima;
         font-size: 18px;
