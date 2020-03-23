@@ -7,3 +7,8 @@
 .content-container > section {
   padding: 1em;
 }
+
+p {
+  font-family: 'PT Serif', serif;
+  color: darkmagenta;
+}
