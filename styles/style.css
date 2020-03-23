@@ -11,12 +11,11 @@ h1, h2 {
 }
 
 /* Navigation and Footer parts */
-.nav-container, footer {
+.nav-container, .footer {
   background: rgba(179, 110, 144, 0.945);
   color: white;
   padding: 10px;
   width: 100%;
-  /* height: 30px; */
   align-items: center;
   text-align: center;
 }
@@ -27,7 +26,7 @@ h1, h2 {
   list-style-type: none;
 }
 
-a, footer {
+a, .footer {
   color: white;
   text-align: center;
   text-decoration: none;
