@@ -12,10 +12,11 @@
 
 p {
   font-family: 'PT Serif', serif;
-  color: rgba(179, 110, 144, 0.945);
+  color: darkmagenta;
   font-size: 18px;
 }
 
 .circle {
   border-radius: 50%;
 }
+
