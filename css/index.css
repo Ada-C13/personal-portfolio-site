@@ -1,7 +1,55 @@
 
 body {
-  /* border: red solid 2px; */
   margin: 0;
   background-color: #f6f6f6;
+  font-family: 'Lato', sans-serif;
 }
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.nav-item-container {
+  background-color: #fe9c8f;
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  overflow:hidden;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-item-container > li {
+/* padding: 5px; */
+}
+.nav-item-container > li > a {
+  display:block;
+  width: 60px;
+  height:auto;
+  padding:10px;
+  text-align:center;
+  color:black;
+}
+
+
+li a:hover {
+  background-color:#ff6f69  ;
+  color: white;
+}
+
+.intro {
+  text-align: center;
+  margin:100px 0;
+  padding:25px;
+  background-color: #fec8c1;
+}
+
+
+
 
