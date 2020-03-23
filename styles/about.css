@@ -1,0 +1,19 @@
+.content-container {
+  display: flex;
+  gap: 3em;
+  padding-left: 3em;
+  padding-top: 3em;
+  text-align: justify;
+  align-content: stretch;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.about-me {
+  text-align: left;
+  font-family: 'PT Serif', serif;
+  color: darkmagenta;
+}
