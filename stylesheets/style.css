@@ -157,7 +157,6 @@ a:hover {
 /*  */
 /* Portfolio Page */
 /*  */
-
 .blocks-container {
   grid-column-start: 3;
   height: 150vh;
@@ -265,7 +264,6 @@ a:hover {
 /*  */
 /* Index Home Page */
 /*  */
-
 .index-main {
   display: grid;
   grid-template-rows: 3fr 5fr 5fr 2fr;
@@ -349,7 +347,4 @@ a:hover {
     display: inline-block;
     align-self: center;
   }
-  /* #index-title h1 {
-    font-size: 1rem;
-  } */
 }
