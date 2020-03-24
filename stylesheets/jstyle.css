@@ -157,8 +157,8 @@ a:hover {
 
 .blocks-container {
   grid-column-start: 3;
-  height: auto;
-  padding: 5rem 10rem;
+  height: 150vh;
+  padding: 5rem 15rem;
   display:grid;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(5, 1fr);
@@ -168,28 +168,38 @@ a:hover {
 .blocks-container > * {
   /* border: pink solid 2px; */
   text-align: center;
-  padding: 1em;
+  padding: 1rem 3rem;
   height: auto;
-  border-radius: 10%;
-  /* background-color: rgb(30, 38, 56);
-  color:whitesmoke */
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 50%;
 }
 
-.blocks-container div p:last-child {
-  text-align: left;
+.blocks-container div h4 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-decoration: underline dotted;
 }
+
+/* .blocks-container div p:last-child {
+  text-align: left;
+} */
 
 .square {
   grid-row: span 2;
   grid-column: span 2;
-  border: #8bc0c4 solid 1rem;
+  background-color: rgb(96, 109, 134);
+  border: #8bc0c4 solid 0.5rem;
   /* border-radius: 10%; */
 }
 
 .alt-square {
   grid-row: span 2;
   grid-column: span 2;
-  border: darkgray solid 1rem;
+  background-image: url("../images/darkmesh.jpg");
+  background-size: cover;
+  background-position: center;
+  border: steelblue solid 0.5rem;
   /* background-color: darkgray; */
   
 }
@@ -197,43 +207,76 @@ a:hover {
 .large {
   grid-row: span 3;
   grid-column: span 3;
-  border: rgb(228,102,99) solid 1rem;
+  background-image: url("../images/slack-logo.png");
+  background-size: cover;
+  background-position: top;
+  border: darkgray solid 0.5rem;
   /* background-color: rgb(228,102,99); */
 }
 
 .tall {
   grid-row: span 3;
   grid-column: span 2;
-  border: rgb(165,158,213) solid 1rem;
+  background-image: url("../images/darkmesh.jpg");
+  background-size: cover;
+  background-position: center;
+  border: #8bc0c4 solid 0.5rem;
+  /* border: rgb(165,158,213) solid 1rem; */
   /* background-color: rgb(165,158,213); */
 }
 
 .wide {
   grid-row: span 2;
   grid-column: span 3;
-  border: rgb(96, 109, 134) solid 1rem;
-  /* background-color: rgb(96, 109, 134); */
+  border: rgb(96, 109, 134) solid 0.5rem;
+  background-color: rgb(228,102,99);
 }
 
-.repo {
+/* .repo {
   background-image: url("../images/github-logo.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-
+  background-repeat: no-repeat;
+  display: block;
+  z-index: 1;
 }
 
-@media only screen and (max-width: 680px) {
+.repo a {
+  display: block;
+  z-index: 2;
+} */
+
+#github {
+  background-image: url("../images/github-logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
   .blocks-container {
     display: block;
     padding: 3rem 4rem;
   }
   .blocks-container > * {
     /* border: white solid 2px; */
-    border-radius: 30%;
+    border-radius: 5%;
+    padding: 2rem;
+    margin: 1rem 0;
   }
-  .repo {
+  .large {
+    background-image: unset;
+    background-color: #49144b;
+  }
+  /* .repo {
     height: 15rem;
-  }
+  } */
 }
 
 
