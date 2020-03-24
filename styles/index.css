@@ -1,0 +1,134 @@
+
+.intro{
+  background-color: gray;
+}
+
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray
+}
+
+.intro li {
+  float: left;
+}
+
+.intro li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.intro li a:hover {
+  background-color: paleturquoise;
+}
+
+.active {
+  background-color: pink;
+}
+.lak-bio{
+  background-color: papayawhip;
+  padding: 1px 20px;
+  text-align: justify;
+}
+
+.lak-bio h1 {
+  color: brown;
+}
+
+.bio {
+  width: 200px;
+  height: 200px;
+  background: url(../images/linkedin.jpg);
+  background-size: 200px;
+  border-radius: 100px;
+  background-position:center;
+  float: left;
+  margin: 30px;
+  shape-outside: circle();
+}
+
+.content{
+  background-image: url("../images/ada-desgin.jpg");
+  padding: 3rem;
+  color: darkturquoise;
+  text-align: center;
+  
+}
+
+.content button{
+  background-color: chartreuse;
+  animation-name: flashing;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.skills{
+  padding: 2rem;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.header{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  
+}
+.cloumn1{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.cloumn2{
+  grid-column: 2;
+  grid-row: 2; 
+}
+
+.skills li{
+  list-style-type: square;
+}
+
+footer{
+  margin: 1rem;
+  color: blue;
+}
+
+footer button{
+  background-color: red;
+  animation: glowing 1300ms infinite;
+  border-radius: 30px;
+  animation-name: flashing;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes flashing{
+  0%{
+    opacity: 1.0;
+  }
+  25%{
+    opacity: 0.6;
+  }
+  50%{
+    opacity: 0.3;
+  }
+  75%{
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 1.0;
+  }
+
+}
