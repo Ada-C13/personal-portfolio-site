@@ -18,7 +18,7 @@ main > section, main > div {
   margin-bottom: 30px;
 }
 
-main section:nth-last-child() {
+main > section:nth-last-of-type() {
   margin-right: 0;
 }
 
@@ -30,10 +30,6 @@ h2 {
 .profile-photo img {
   width: 300px;
   margin: 0;
-}
-
-.diamond-photo img {
-  width: 300px;
 }
 
 .intro {
@@ -57,8 +53,21 @@ h2 {
   line-height: 1.8;
 }
 
+video {
+  width: 50%;
+  width: 800; 
+  height: 600; 
+}
 
-@media only screen and (max-width: 680px) {
+
+@media only screen and (max-width: 992px) {
+  video {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
   .intro, .bio, .favorites {
     margin: 0px;
   }
@@ -73,17 +82,15 @@ h2 {
     width: 100%;
     margin-top: -200px;
     margin-bottom: -100px;
-    vertical-align: middle;
-    margin-left: auto; 
-    margin-right: auto;
-  }
-
-  .diamond-photo img {
-    display: none;
   }
 
   main > section {
     margin-bottom: 0px;
+  }
+
+  video {
+    margin-top: -100px;
+    width: 100%;
   }
 }
 
