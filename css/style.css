@@ -34,7 +34,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   list-style: none;
   font-size: 1.15rem;
@@ -47,4 +47,11 @@ body {
 
 .push {
   margin-left: auto;
+}
+
+.big-image {
+  background-image: url(/img/Seattle.jpg);
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
 }
