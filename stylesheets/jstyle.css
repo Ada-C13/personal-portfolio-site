@@ -3,8 +3,10 @@
 /*  */
 body {
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Cutive Mono', monospace;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 ul {
@@ -33,7 +35,15 @@ a:hover {
 }
 
 .color-red {
-  background-color: rgb(228,102,99);
+  background-color: rgb(228, 130, 128);
+}
+
+.color-yellow {
+  background-color: #f1e06f;
+}
+
+.color-gray {
+  background-color: #d5d5d5;
 }
 
 .header-design {
@@ -75,15 +85,16 @@ a:hover {
   z-index: -1;
 }
 
-.journal-entry p, h4, h5 {
+.journal-entry p, 
+.journal-entry h5 {
   position: absolute;
   z-index: 100;
   left: 0;
   right: 0;
-  bottom: 1em;
+  bottom: 0;
   text-align: center;
   color: yellow;
-  background-color: rgb(0,0,0,0.5);
+  background-color: rgb(0,0,0,0.4);
   padding: 2em 0;
 }
 
@@ -139,3 +150,163 @@ a:hover {
     padding: 2rem;
   }
 }
+
+/*  */
+/* Portfolio Page */
+/*  */
+
+.blocks-container {
+  grid-column-start: 3;
+  height: auto;
+  padding: 5rem 10rem;
+  display:grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+}
+
+.blocks-container > * {
+  /* border: pink solid 2px; */
+  text-align: center;
+  padding: 1em;
+  height: auto;
+  border-radius: 10%;
+  /* background-color: rgb(30, 38, 56);
+  color:whitesmoke */
+}
+
+.blocks-container div p:last-child {
+  text-align: left;
+}
+
+.square {
+  grid-row: span 2;
+  grid-column: span 2;
+  border: #8bc0c4 solid 1rem;
+  /* border-radius: 10%; */
+}
+
+.alt-square {
+  grid-row: span 2;
+  grid-column: span 2;
+  border: darkgray solid 1rem;
+  /* background-color: darkgray; */
+  
+}
+
+.large {
+  grid-row: span 3;
+  grid-column: span 3;
+  border: rgb(228,102,99) solid 1rem;
+  /* background-color: rgb(228,102,99); */
+}
+
+.tall {
+  grid-row: span 3;
+  grid-column: span 2;
+  border: rgb(165,158,213) solid 1rem;
+  /* background-color: rgb(165,158,213); */
+}
+
+.wide {
+  grid-row: span 2;
+  grid-column: span 3;
+  border: rgb(96, 109, 134) solid 1rem;
+  /* background-color: rgb(96, 109, 134); */
+}
+
+.repo {
+  background-image: url("../images/github-logo.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+@media (max-width: 680px) {
+  .blocks-container {
+    display: block;
+    padding: 3rem 4rem;
+  }
+  .blocks-container > * {
+    /* border: white solid 2px; */
+    border-radius: 30%;
+  }
+  .repo {
+    height: 15rem;
+  }
+}
+
+
+/*  */
+/* Index Home Page */
+/*  */
+
+.index-design {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 3fr 5fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-areas: 
+    "left-block header header header right-block"
+    "left-block . logo-block . right-block"
+}
+
+.index-nav {
+  grid-area: header;
+  margin-top: 3rem;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Cutive Mono', monospace;
+}
+
+#index-title {
+  grid-area: logo-block;
+  margin: 2rem 0 3rem 0;
+}
+
+#index-title h1 {
+  padding: 3rem;
+  /* margin: 1rem; */
+  background-color: rgb(228,102,99);
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+#blue-block {
+  grid-area: left-block;
+  background-color: #8bc0c4;
+}
+
+#yellow-block {
+  grid-area: right-block;
+  background-color: #f7d90a;
+}
+
+#intro {
+  padding: 3rem;
+  height: auto;
+}
+
+#intro h3 {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.index-footer {
+  padding: 2rem 4rem;
+  height: auto;
+  text-align: center;
+
+}
+
+@media (min-width: 680px) {
+  #intro {
+    padding: 10vh 10vw 10vh 25vw;
+    text-align: left;
+  }
+  #index-title h1 {
+    font-size: 1.7rem;
+  }
+}
+
