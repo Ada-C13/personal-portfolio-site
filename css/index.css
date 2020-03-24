@@ -15,7 +15,7 @@ p {
 
 
 .nav-item-container {
-  background-color: #fe9c8f;
+  background-color : #FFC5DA; ;
   margin:0;
   padding:0;
   list-style-type: none;
@@ -39,17 +39,62 @@ p {
 
 
 li a:hover {
-  background-color:#ff6f69  ;
-  color: white;
+  background-color :#C4FFC9;;
+  color:black;
 }
 
 .intro {
   text-align: center;
   margin:100px 0;
   padding:25px;
-  background-color: #fec8c1;
+  background-color: #66B36C;
 }
 
+.portfolio {
+  display: flex;
+  padding: 20px;
+  /* width: 60%; */
+  margin:10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
 
+.portfolio > section {
+  padding: 10px;
+  margin: 5px;
+  display: block;
+  width: 300px;
+  height:300px;
+  /* border:  #FFDEEA solid 10px; */
+  text-align: center;
+  background-color: #FFDEEA ;
+}
 
+#portfolio-1 {
+  background-size: 330px;
+  background-image: url("../images/portfolio-1-c.jpg");
+}
 
+#portfolio-2 {
+  background-size: 330px;
+  background-image: url("../images/portfolio-2-c.jpg");
+}
+
+#portfolio-3 {
+  background-size: 330px;
+  background-image: url("../images/portfolio-3-c.jpg");
+}
+
+#portfolio-4 {
+  background-size: 330px;
+  background-image: url("../images/portfolio-4-c.jpg");
+}
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #B3788D; color:#fec8c1;color:#ff6f69 }
+.My-Color-Theme-2-hex { color: #FFDEEA; }
+.My-Color-Theme-3-hex { color: #FFC5DA; }
+.My-Color-Theme-4-hex { color: #66B36C; }
+.My-Color-Theme-5-hex { color: #C4FFC9; }
