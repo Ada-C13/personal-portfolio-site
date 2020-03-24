@@ -1,3 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: azure;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.nav-header {
+  height: 90px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.nav-header__logo {
+  padding: 30px ;
+  color: pink;
+}
+
+.nav-header__menu {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  list-style: none;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.nav-header__menu li {
+  padding: 30px 20px;
+}
+
+.push {
+  margin-left: auto;
 }
