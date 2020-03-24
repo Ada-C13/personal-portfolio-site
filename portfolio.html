@@ -1,46 +1,61 @@
-<!-- MAIN (Center website) -->
-<div class="main">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olga Patrakova portfolio</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Olga Patrakova</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="code-journal.html">Code Journal</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="gallery">
+            <!-- Portfolio Gallery Grid -->
+                <div class="row">
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/grocery1.png" alt="Grocery Store code snippet" style="width:100%">
+                            <h3>Grocery Store</h3>
+                            <p>This library code that grocery stores would use and that is able to keep track of the orders that folks make in the store.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                                <img src="images/wonders1.png" alt="Seven Wonders code snippet" style="width:100%">
+                            <h3>Seven Wonders</h3>
+                            <p>Using the list of all the wonders, made a collection of all their coordinates using httparty and Location IQ's API.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/hotel.png" alt="Hotel code snippet" style="width:100%">
+                            <h3>Hotel</h3>
+                            <p>A module full of business logic that tracks which rooms are reserved, and at what dates. This project is organized into appropriate classes and methods.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="content">
+                            <img src="images/rideshare.png" alt="Ride share project code snippet" style="width:100%">
+                            <h3>Ride Share</h3>
+                            <p>A Ruby library that loads lists of passengers, trips and drivers from CSV files, provides methods for exploring this data, and a way to request a new trip.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <h2>Portfolio</h2>
-    <link href="css/portfolio.css" rel="stylesheet">
-
-    <!-- Portfolio Gallery Grid -->
-    <div class="row">
-        <div class="column">
-            <div class="content">
-<!--                <img src="mountains.jpg" alt="Mountains" style="width:100%">-->
-                <h3>Grocery Store</h3>
-                <p>This library code is able to keep track of the orders that folks make in the store.</p>
+                <div class="content">
+                    <img src="images/slack.png" alt="Slack CLI project code snippet" style="width:100%">
+                    <h3>Slack Command Line App</h3>
+                    <p>A complete command-line application that interacts with Slack. It is able to list users and channels, show details and send a message to a user or channel.</p>
+                </div>
             </div>
-        </div>
-        <div class="column">
-            <div class="content">
-<!--                <img src="lights.jpg" alt="Lights" style="width:100%">-->
-                <h3>Seven Wonders of the World</h3>
-                <p>Using the list of all the wonders, made a collection of all their coordinates using httparty and Location IQ's API.</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-<!--                <img src="nature.jpg" alt="Nature" style="width:100%">-->
-                <h3>Hotel</h3>
-                <p>Made a module full of business logic that tracks which rooms are reserved, and at what dates. This is organized into appropriate classes and methods.</p>
-            </div>
-        </div>
-        <div class="column">
-            <div class="content">
-<!--                <img src="mountains.jpg" alt="Mountains" style="width:100%">-->
-                <h3>Ride Share</h3>
-                <p>Built a Ruby library that loads lists of passengers, trips and drivers from CSV files, provides methods for exploring this data, and provides a way to request a new trip.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="content">
-<!--        <img src="bear.jpg" alt="Bear" style="width:100%">-->
-        <h3>Grocery Store</h3>
-        <p>A complete command-line application that interacts with Slack. This application is able to list users and channels, show details about a user or channel and send a message to a user or channel.</p>
-    </div>
-
-    <!-- END MAIN -->
-</div>
+        </main>
+        <footer>(c) Olga Patrakova, 2020</footer>
+    </body>
+</html>
