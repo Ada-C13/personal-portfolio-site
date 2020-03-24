@@ -1,15 +1,23 @@
 header {
-  background-color: aquamarine;
-  color: blanchedalmond;
+  background-color: wheat;
+  color: rgb(185, 117, 117);
   text-align: center;
   padding: 25px 0px;
   margin-bottom: 25px;
 }
 
 main {
-
+  background-color: rgb(185, 117, 117);
+  width: 600px;
+  padding: 25px;
+  border: solid 5px wheat;
 }
 
 footer {
+  background-color: thistle;
+  color: grey;
+  margin-top: solid 25 px wheat;
+  text-align: center;
+  padding: 25px 0px;
   
 }
