@@ -181,7 +181,6 @@ footer {
 
 .content-bucket {
   display: flex;
-
 }
 
 .left-column {
@@ -213,21 +212,59 @@ footer {
 }
 
 .blog {
-  margin: 20px auto;
+  margin: 0 auto;
   width:50%;
-  background-color:#fff;
   display:grid;
+  justify-content: center;
   grid-template-columns: 300px 300px;
   grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
 }
 
 .blog-image {
   height: 200px;
   width: 75%;
   align-self: center;
+  border-radius: 30px/10px;
+  border: black solid;
 }
 
+.home {
+  border: red solid;
+  align-items: center;
+}
 
+.home-bucket {
+  border: red solid;
+  width: 75%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.cell-1 {
+  border: red solid;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  background-color: violet;
+}
+
+.cell-2 {
+  border: red solid;
+}
+
+.cell-3 {
+  border: red solid;
+}
+
+.cell-4 {
+  border: red solid;
+}
+
+.cell-5 {
+  border: red solid;
+}
+
+.cell-6 {
+  border: red solid;
+}
 
