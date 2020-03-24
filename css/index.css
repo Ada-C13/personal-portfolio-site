@@ -15,7 +15,7 @@ p {
 
 
 .nav-item-container {
-  background-color : #FFC5DA; ;
+  background-color : #dadffd; ;
   margin:0;
   padding:0;
   list-style-type: none;
@@ -25,21 +25,20 @@ p {
   justify-content: flex-end;
 }
 
-.nav-item-container > li {
-/* padding: 5px; */
-}
+
 .nav-item-container > li > a {
-  display:block;
-  width: 60px;
-  height:auto;
-  padding:10px;
+  display:inline-block;
+  width: 70px;
+  height:50px;
   text-align:center;
+  text-decoration: none;
+  line-height: 50px;
   color:black;
 }
 
 
 li a:hover {
-  background-color :#C4FFC9;;
+  background-color :#7cfefc;;
   color:black;
 }
 
@@ -47,7 +46,13 @@ li a:hover {
   text-align: center;
   margin:100px 0;
   padding:25px;
-  background-color: #66B36C;
+  background-color: #01bb89;
+}
+
+.title {
+  color:black;
+  margin: 25px;
+  text-align: center;
 }
 
 .portfolio {
@@ -74,22 +79,65 @@ li a:hover {
 
 #portfolio-1 {
   background-size: 330px;
-  background-image: url("../images/portfolio-1-c.jpg");
+  background-image: url("../images/portfolio-1-d.jpg");
 }
 
 #portfolio-2 {
   background-size: 330px;
-  background-image: url("../images/portfolio-2-c.jpg");
+  background-image: url("../images/portfolio-2-d.jpg");
 }
 
 #portfolio-3 {
   background-size: 330px;
-  background-image: url("../images/portfolio-3-c.jpg");
+  background-image: url("../images/portfolio-3-d.jpg");
 }
 
 #portfolio-4 {
   background-size: 330px;
-  background-image: url("../images/portfolio-4-c.jpg");
+  background-image: url("../images/portfolio-4-d.jpg");
+}
+
+.blogs {
+  display: flex;
+  padding: 20px;
+  /* width: 60%; */
+  margin:10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.blogs > section {
+  padding: 10px;
+  margin: 5px;
+  display: block;
+  width: 300px;
+  height:300px;
+  /* border:  #FFDEEA solid 10px; */
+  text-align: center;
+  background-color: #FFDEEA ;
+
+}
+
+.blog-post  {
+  margin:10% 20%;
+  padding:10px;
+  border: solid #7cfefc 2px;
+}
+
+.blog-post p {
+  margin: 10px;
+  padding:10px;
+  font-size: 22px;
+}
+
+footer {
+  background-color: #ac79b5;
+  color:black;
+  padding:1px;
+  text-align: center;
 }
 
 /* Color Theme Swatches in Hex */
@@ -98,3 +146,4 @@ li a:hover {
 .My-Color-Theme-3-hex { color: #FFC5DA; }
 .My-Color-Theme-4-hex { color: #66B36C; }
 .My-Color-Theme-5-hex { color: #C4FFC9; }
+.color_edit {color:#ac79b5,#7cfefc,#01bb89,#dadffd}
