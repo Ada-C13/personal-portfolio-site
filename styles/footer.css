@@ -5,14 +5,14 @@ footer {
 
 footer > .contact {
   background-color: #fff;
-  opacity: 0.3;
+  opacity: 0.6;
   display: flex;
   justify-content: flex-end;  
   width: 100%;
   position: fixed;
   bottom: 0px;
   right: 0px;
-  padding-bottom: 10px;
+  padding: 0 25px 10px 0;
   list-style: none;
 }
 
@@ -47,11 +47,13 @@ footer img {
 }
 
 
-@media only screen and (max-width: 380px) {
-  footer img {
-    visibility: hidden;
-  }
+@media only screen and (max-width: 600px) {
   .contact li {
     padding-left: 20px;
+  }
+
+  footer {
+    padding: 0; 
+    height: auto;
   }
 }
