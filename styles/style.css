@@ -13,36 +13,39 @@ body {
 }
 
 .welcome {
-  
-  /* height: 150vh; */
+  position: relative;
 }
 
 #hero {
   width: 100%;
   padding: 0px;
   height: 100vh;
+  /* position: relative; */
 }
 
 .top-nav {
-  background-color: rgba(255,	203,	164);
-  /* background-color: paleturquoise; */
+  background-color: #00a693;
   position: fixed;
+  z-index: 2;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
+/* h4 */
+.top-nav h4 a {
+  white-space: nowrap;
+  margin-left: 10px;
+  color: black;
+}
+
+/* ul */
 .nav-flex {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
   width: 100%;
  
-}
-
-.top-nav h4 {
-  white-space: nowrap;
-  margin-left: 10px;
 }
 
 .nav-flex li {
@@ -53,8 +56,6 @@ body {
   text-decoration: none;
   color: white;
 }
-
-/*
 
 
 #name {
