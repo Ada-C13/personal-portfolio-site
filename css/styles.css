@@ -55,6 +55,16 @@ footer {
   background-size: 100%;
 }
 
+#about-header {
+  background: url("../images/blur-book-stack-books-bookshelves-590493.jpg");
+  background-size: 100%;
+}
+
+#portfolio-header {
+  background: url("../images/photograph-of-a-burning-fire-672636.jpg");
+  background-size: 100%;
+}
+
 #blog-header {
   background: url("../images/photo-of-green-vegetables-3296542.jpg");
   background-size: 100%;
