@@ -98,6 +98,7 @@ video {
   video {
     margin-top: -5px;
     width: 100%;
+    object-fit: fill;
   }
 }
 
