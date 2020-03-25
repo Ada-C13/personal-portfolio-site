@@ -9,9 +9,9 @@ html {
 }
 
 img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 0px;
 }
 
 a {
@@ -63,11 +63,9 @@ nav {
 }
 
 nav ul {
-  display: grid;
+  display: inline;
   grid-template-columns: 30% 40% 15% 15%;
   text-align: right;
-  align-content: right;
-  align-items: right;
 }
 
 footer {
@@ -111,11 +109,12 @@ footer {
 
 #about-me {
   height: 100vh;
+  width: 100vh;
   justify-content: flex-end;
 }
 
 #about-me p {
-  width: 60vw;
+  width: 20vw;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -133,24 +132,26 @@ footer {
 #skills ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0;
+  padding-bottom: 0px;
+  padding-top: 10px;
+
 }
 
 #skills ul li {
-  display: flex;
+  display: inline;
   flex-direction: column;
   align-items: center;
-  line-height: 50px;
+  line-height: 20px;
 }
 
 #skills ul li img{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 #projects ul li {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: block;
+  width: 60vw;
 }
 
 #projects ul li a {
@@ -162,29 +163,18 @@ footer {
   color: teal;
 }
 
-#projects ul li .drop-down-block {
-  width: 50vw;
-  display: none;
-  position: relative;
-  font-size: 15px;
-  color: gray;
-}
-
-#projects ul li:hover .drop-down-block {
-  display: block;
-}
-
 #hobby ul {
-  display: grid;
+  display: -moz-grid-line;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 #hobby ul li img {
-  width: 200px;
+  width: 300px;
   height: 200px;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .contact {
@@ -194,8 +184,7 @@ footer {
   align-items: center;
 }
 
-.contact img,
-.homepage img {
+.contact img{
   width: 40px;
   height: 40px;
   justify-items: end;
