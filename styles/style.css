@@ -7,9 +7,14 @@ font-family: 'Martel', serif;
   font-family: 'Sen', sans-serif;
 }
 
-/* Clears margin on far left */
+/* clears margin on far left */
 body {
   margin: 0;
+}
+
+.welcome {
+  
+  /* height: 150vh; */
 }
 
 #hero {
@@ -19,8 +24,8 @@ body {
 }
 
 .top-nav {
-  /* background-color: rgb(255,88,15,0); */
-  background-color: paleturquoise;
+  background-color: rgba(255,	203,	164);
+  /* background-color: paleturquoise; */
   position: fixed;
   width: 100%;
   display: flex;
@@ -30,11 +35,18 @@ body {
 .nav-flex {
   display: flex;
   list-style-type: none;
+  justify-content: flex-end;
+  width: 100%;
+ 
+}
+
+.top-nav h4 {
+  white-space: nowrap;
+  margin-left: 10px;
 }
 
 .nav-flex li {
-  /* align-items: center; */
-  margin: 10px;
+  margin-right: 20px;
 }
 
 .top-nav a {
@@ -91,7 +103,7 @@ body {
   font-size: 1.1em;
   color: white;
   text-align: center;
-padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .project-title:hover {
