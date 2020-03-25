@@ -24,3 +24,4 @@ Ada Developers Academy: https://github.com/Ada-C13/personal-portfolio-site
 
 ## Resources
 * Free Images: https://unsplash.com/
+* HTML Validator: https://validator.w3.org/#validate_by_upload
