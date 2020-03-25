@@ -1,0 +1,64 @@
+body{
+  margin: 1rem;
+}
+
+
+.intro{
+  background-color: gray;
+}
+
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray
+}
+
+.intro li {
+  float: left;
+}
+
+.intro li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.intro li a:hover {
+  background-color: paleturquoise;
+}
+
+.active {
+  background-color: pink;
+}
+
+p::first-letter{
+  font-size: 3rem;
+  color: dimgray;
+  font-style: italic;
+  float: left;
+  margin:  -10px 5px -10px 5px;
+}
+
+.ada{
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/ada-main-logo.jpg);
+  float: right;
+  margin: 50px 10px 5px 10px;
+  background-position: center;
+  background-size: 150px;
+}
+
+.goal{
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/ada-change-faces.png);
+  float: left;
+  margin: -20px 2px 2px 2px;
+  background-size: 250px;
+}
