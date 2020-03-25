@@ -23,23 +23,18 @@ body {
   background-color: paleturquoise;
   position: fixed;
   width: 100%;
-
+  display: flex;
+  align-items: center;
 }
 
 .nav-flex {
   display: flex;
   list-style-type: none;
-  text-align: right;
 }
 
-/* .top-nav:hover {
-  background-color: rgb(255,88,15,0.8);
-} */
-
-.top-nav > li {
-  /* display: ; */
-  /* padding: 10px;
-  margin: 5px; */
+.nav-flex li {
+  /* align-items: center; */
+  margin: 10px;
 }
 
 .top-nav a {
