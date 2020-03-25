@@ -78,7 +78,7 @@ video {
   .intro, .bio, .favorites {
     margin: 0px;
   }
-  
+
   main > section, main > div {
     width: 100%;
     margin-left: auto;
@@ -96,7 +96,7 @@ video {
   }
 
   video {
-    margin-top: -100px;
+    margin-top: -5px;
     width: 100%;
   }
 }
