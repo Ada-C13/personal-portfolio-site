@@ -34,8 +34,9 @@
   left:33%; 
   top:33%;
   border-radius: 5rem;
-  background-color: #f6f6f6;
+  background-color:#f6f6f699;
 }
+
 
 .pic img {
   width: 330px;
@@ -63,7 +64,12 @@
   text-align: center;
 }
 
+.pictext p {
+  margin: 10px;
+}
+
 .pictext a {
+  margin: 10px;
   color:blue;
   font-size:18px;
 }
