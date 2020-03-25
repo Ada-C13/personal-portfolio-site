@@ -1,0 +1,50 @@
+/* header {
+  margin: 0;
+} */
+
+body {
+  margin: 0;
+  background-color: #FBEEE4;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+  font-size: 80px;
+  color: #FBFAF6;
+  text-align: left;
+  padding: 8%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 520;
+  /* position: fixed */
+  /* max-width: 100%; */
+}
+
+/* TODO - move color white text to the links class --> color:#FBFAF6 */
+nav {
+  /* top: 0; */
+  /* z-index: 100; */
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #202020;
+  padding: 10px;
+  position: fixed;
+  width: 100%
+}
+
+a {
+  color: #FBFAF6;
+  text-decoration: none;
+}
+
+#index-header {
+  background: url("../images/background-beverage-breakfast-brown-414645.png");
+  background-size: 100%;
+}
+
+#blog-header {
+  background: url("../images/photo-of-green-vegetables-3296542.jpg");
+  background-size: 100%;
+}
+
+
