@@ -16,33 +16,58 @@
   text-align: center;
 }
 
-.portfolio > section {
-  padding: 10px;
-  margin: 5px;
+.portfolio-sub {
+  margin: 3px;
   display: block;
-  width: 300px;
-  height:300px;
-  /* border:  #FFDEEA solid 10px; */
+  width: 330px;
+  height:330px;
   text-align: center;
-  background-color: #FFDEEA ;
+  /* background-color: #FFDEEA ; */
+
+  position: relative;
+  overflow: hidden;
 }
 
-#portfolio-1 {
-  background-size: 330px;
-  background-image: url("../images/portfolio-1-d.jpg");
+.pic h3{
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  left:25px;
+  /* background-color: #f6f6f6; */
+}
+.pic img {
+  width: 330px;
+  height: 330px;
 }
 
-#portfolio-2 {
-  background-size: 330px;
-  background-image: url("../images/portfolio-2-d.jpg");
+
+.pictext {
+  text-align: left;
+	position: absolute;
+	background: #f6f6f6;
+	width: 330px;
+  height: 330px;
+  top:330px;
+
+	-webkit-transition: top .5s;
+	-moz-transition: top .5s;
+	-o-transition: top .5s;
+	-ms-transition: top .5s;
+  transition: top .5s;
+  
 }
 
-#portfolio-3 {
-  background-size: 330px;
-  background-image: url("../images/portfolio-3-d.jpg");
+.pictext h3 {
+  text-align: center;
 }
 
-#portfolio-4 {
-  background-size: 330px;
-  background-image: url("../images/portfolio-4-d.jpg");
+.pictext a {
+  color:blue;
+  font-size:18px;
 }
+
+.portfolio-sub:hover > .pictext {
+  top: 0px;
+}
+
+

@@ -43,6 +43,13 @@ p {
   text-decoration: none;
   line-height: 50px;
   color:black;
+
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+
 }
 
 

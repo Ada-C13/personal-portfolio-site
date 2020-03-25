@@ -40,12 +40,21 @@
   height: 330px;
 }
 
+
 .pictext {
   text-align: left;
 	position: absolute;
 	background: #f6f6f6;
 	width: 330px;
-	height: 330px;
+  height: 330px;
+  top:330px;
+
+	-webkit-transition: top .5s;
+	-moz-transition: top .5s;
+	-o-transition: top .5s;
+	-ms-transition: top .5s;
+  transition: top .5s;
+  
 }
 
 .pictext h3 {
@@ -60,3 +69,4 @@
 .portfolio-sub:hover > .pictext {
   top: 0px;
 }
+
