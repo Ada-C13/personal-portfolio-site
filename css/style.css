@@ -128,7 +128,41 @@ body {
   padding: 35px 10px;
 }
 
+.about {
+  display: flex;
+  width: 80%;
+  max-width: 1024px;
+  margin: 50px auto;
+  height: 35vh;
+}
 
+.about__text {
+  margin: 0 50px;
+}
+
+.about__text__header {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about__text__subheader {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about__text__p {
+  line-height: 1.8rem;
+}
+
+.about__image img {
+  max-width: 100%;
+  border-radius: 50%;
+  /* max-height: 100%; */
+  /* width: 150%;
+  background-image: url("../img/avatar.jpg"); */
+}
 
 
 
