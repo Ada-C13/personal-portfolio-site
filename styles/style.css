@@ -1,7 +1,16 @@
 /* main */
-main {
+#job-title {
   position: relative;
   top: 100px;
+  margin: 50px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #767c7c;
+}
+
+.main-container {
+  position: relative;
+  top: 80px;
   display: grid;
   grid-template-columns: 4fr 8fr;
   grid-template-rows: auto auto;
@@ -11,21 +20,20 @@ main {
   margin: 50px;
 }
 
-main section h2 {
+.main-container section h2 {
   text-align: center;
   font-size: 25px;
   text-transform: uppercase;
 }
 
-main > section > h2 > a {
+.main-container > section > h2 > a {
   text-decoration: none;
   color: #000;
 }
 
-main > section > a:hover {
+.main-container > section > h2 > a:hover {
   text-decoration: underline;
 }
-
 
 #about {
   background-color: #148296;
@@ -34,7 +42,6 @@ main > section > a:hover {
   height: 250px;
   line-height: 250px;
 }
-
 
 #portfolio {
   background-color: #E4C974;
@@ -53,8 +60,8 @@ main > section > a:hover {
 }
 
 
-@media only screen and (max-width: 680px) {
-  main {
+@media only screen and (max-width: 600px) {
+  .main-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -72,5 +79,52 @@ main > section > a:hover {
     margin-top: 55px;
     width: 300px;
   }
+
+  #job-title {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
+/* Reference: https://medium.com/@valentyn.vasylenko/typewriter-effect-with-alternating-text-in-pure-css3-72cf0c7e6c5 */
+/* I used animation code thanks to the link above: */
+
+/* animation  */
+@keyframes typewriter {
+  0%, 100% {
+    width: 3em;
+  }
+  20%, 80% {
+    width: 23.3em;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+#job-title {
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  animation: typewriter;
+  animation-duration: 20s;
+  animation-timing-function: steps(40);
+  animation-iteration-count: infinite;
+}
+
+
+#job-title::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+  animation-iteration-count: infinite;
+} 
