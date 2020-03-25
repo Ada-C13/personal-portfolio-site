@@ -1,0 +1,58 @@
+
+.intro{
+  background-color: gray;
+}
+
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray
+}
+
+.intro li {
+  float: left;
+}
+
+.intro li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.intro li a:hover {
+  background-color: paleturquoise;
+}
+
+.active {
+  background-color: pink;
+}
+
+.body-intro {
+  background-color: cornsilk;
+  padding: 1em;
+  color:black;
+  background-size: cover;
+  border: 2px solid cadetblue;
+}
+
+.body-intro ::first-letter {
+  font-size: 2rem;
+  font-style: italic;
+}
+.laptop-image {
+  background-image: url(../Images/home-laptop.jpg);
+  background-size: cover;
+  height: 500px;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
