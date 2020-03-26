@@ -36,8 +36,14 @@ nav {
   width: 100%
 }
 
-a {
+.a-nav {
   color: #FBFAF6;
+  text-decoration: none;
+}
+
+a {
+  color: #a9a9a9;
+  font-size: 20px;
   text-decoration: none;
 }
 
