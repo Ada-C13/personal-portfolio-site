@@ -5,24 +5,25 @@ font-family: 'Martel', serif;
 
 * {
   font-family: 'Sen', sans-serif;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-/* clears margin on far left */
-body {
+ body {
   margin: 0;
-}
-
-.welcome {
+  background-image: url(../portfolio_assets/half_sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
   position: relative;
 }
 
-#hero {
-  width: 100%;
-  padding: 0px;
-  /* height: 100vh; */
+.welcome {
+  padding-top: 5%;
+  position: relative;
 }
 
+/* Navigation Bar */
 .top-nav {
   background-color: #00a693;
   position: fixed;
@@ -30,7 +31,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-}
+} 
 
 /* h4 */
 .top-nav h4 a {
@@ -56,6 +57,16 @@ body {
   text-decoration: none;
   color: white;
 }
+/* end of nav bar */
+
+
+.floating-name {
+  z-index: 3;
+  position: absolute;
+  float: right;
+  margin: 10%;
+  margin-left: 20%;
+}
 
 #headshot {
   border-radius: 50%;
@@ -63,4 +74,4 @@ body {
 
 footer {
   /* background-color: blue; */
-}
+ }
