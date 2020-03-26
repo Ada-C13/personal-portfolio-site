@@ -29,7 +29,7 @@ nav {
 }
 
 a {
-  color: #a9a9a9;
+  color: #228B22;
   font-size: 20px;
   text-decoration: none;
 }
@@ -37,6 +37,15 @@ a {
 main {
   min-height: 100%;
   padding: 3% 20% 20%;
+}
+
+article {
+  background-color: #F6ECDC;
+  border: 2px solid #A9A9A9;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1%;
+  margin-left: 0; 
 }
 
 footer {
