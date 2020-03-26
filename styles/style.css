@@ -46,7 +46,6 @@ font-family: 'Martel', serif;
   list-style-type: none;
   justify-content: flex-end;
   width: 100%;
- 
 }
 
 .nav-flex li {
@@ -59,14 +58,35 @@ font-family: 'Martel', serif;
 }
 /* end of nav bar */
 
+.wrapper-box {
+  /* background-color: white; */
+  display: flex;
+  width: 50%;
+  padding: 3%;
+  flex-wrap: wrap;
+  padding-top: 9%;
+}
 
-.floating-name {
+.half-and-half {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  /* margin: 10% 0% 0% 10% ; */
+}
+
+.half-and-half h1 {
+  
+
+}
+
+/* .floating-name {
   z-index: 3;
   position: absolute;
   float: right;
   margin: 10%;
   margin-left: 20%;
-}
+} */
 
 #headshot {
   border-radius: 50%;
