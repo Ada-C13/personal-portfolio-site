@@ -237,6 +237,43 @@ body {
   margin-bottom: 20px;
 }
 
+.section-blog {
+  width: 80%;
+  max-width: 1024px;
+  margin: 50px auto;
+}
+
+.blog-post {
+  margin: 70px 0;
+}
+
+.blog-post h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.blog-post h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.blog-post img {
+  /* height: 30vh; */
+  width: 100%;
+}
+
+.blog-post p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 20px;;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
 .card {
   margin: 0 10px;
 
