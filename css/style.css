@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,400;0,800;1,300&display=swap");
 
-
 h1 {
   font-size: 100px;
   margin: 0;
@@ -21,6 +20,9 @@ p {
   font-family: 'Muli', sans-serif;
   font-weight: lighter;
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
 
 header {
