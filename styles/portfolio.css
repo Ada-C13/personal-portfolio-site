@@ -1,0 +1,73 @@
+
+.intro{
+  background-color: gray;
+}
+
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray
+}
+
+.intro li {
+  float: left;
+}
+
+.intro li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.intro li a:hover {
+  background-color: paleturquoise;
+}
+
+.active {
+  background-color: pink;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.ruby img{
+  width: 10%;
+  margin-left: 40%;
+  margin-right: 50%;
+  margin-bottom: -0%;
+  margin-top: 2% ;
+}
+
+.sql img{
+  width: 30%;
+  margin-left: 30%;
+  margin-right: 50%;
+}
+
+
+.r-logo img{
+  width: 10%;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+.htmlcss img{
+  width: 15%;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+.port-intro {
+  background: url("../Images/hello-world.png");
+  padding: 2em;
+  height: 300px;
+  background-size: cover;
+  
+  
+}
