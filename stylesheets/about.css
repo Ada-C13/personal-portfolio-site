@@ -1,0 +1,16 @@
+main {
+  /* background-color: tomato; */
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3.5fr 1.5fr;
+  justify-items: center;
+  padding-bottom: 30px;
+}
+
+main img {
+  padding: 45px 0 0 15px;
+  height: 250px;
+  width: auto;
+  
+}
