@@ -42,7 +42,7 @@ header {
  
 }
 
-li, a {
+li, .nav-link {
   font-family: 'Muli', sans-serif;
   font-size: 18px;
   color: #244c5e;
@@ -58,7 +58,7 @@ li, a {
 }
 
 
-.nav-links li a {
+.nav-links li .nav-link {
   transition: all 0.3s ease 0s;
   border-bottom: 1px solid #6a6a65;
 
@@ -110,6 +110,9 @@ footer .copy {
   color: gray;
 }
 
+.social-media {
+  text-decoration: none;
+}
 /* Work CSS */
 
 .work {
