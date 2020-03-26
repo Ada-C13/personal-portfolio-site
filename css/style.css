@@ -69,8 +69,8 @@ li, a {
 }
 
 .profile {
-  border-radius: 50%;
-  max-width: 100%;
+  border-radius: 20%;
+  max-width: 200%;
   height: auto;
 
 }
@@ -79,6 +79,10 @@ li, a {
   width: 600px;
   margin: 100px auto;
   text-align: center;
+}
+
+.about-me li {
+  text-transform: initial;
 }
 
 .footer-sec {
