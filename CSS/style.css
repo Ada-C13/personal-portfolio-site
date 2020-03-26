@@ -1,0 +1,76 @@
+
+ /* INDEX*/
+body {
+  margin: 0.5;
+  /* this font size will effect all elements (other than h1 -> h6) on the page */
+  font-size: 21px;
+  
+  background-image: url(/images/Lake-Cresent.JPG);
+  background-size: 100% 200%;
+}
+img {
+  width: 25%;
+  height: 50%;
+
+}
+
+/* ========
+Typography 
+======== */
+
+h1 a {
+  font-size: 48px;
+  color: coral;
+
+}
+h1 {
+ 
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+/* ========
+Layout 
+======== */
+
+header {
+  background-color: #588C94;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+
+}
+.index-container {
+  padding: 40px;
+  margin: 30px;
+  background-color: teal;
+
+
+}
+
+
+
+
+
+/*ABOUT*/
+.about-body {
+  background-image: none;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+
+}
