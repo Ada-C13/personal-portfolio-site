@@ -28,13 +28,20 @@
   /* border:  #FFDEEA solid 10px; */
   text-align: center;
   background-color: #01bb8982 ;
-
 }
+
+.blogs > section p {
+  text-align: left;
+  padding:5px;
+}
+
 
 .blog-post  {
   margin:10% 20%;
   padding:10px;
-  border: solid #7cfefc 2px;
+  border: solid  #01bb8982  5px;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 .blog-post p {
