@@ -46,6 +46,16 @@ article {
   padding: 1%;
   margin: 1%;
   margin-left: 0; 
+  display: flex;
+}
+
+.portfolio-image {
+  height: 20%;
+  width: 20%;
+}
+
+.blog-content {
+  margin-left: 1%;
 }
 
 footer {
