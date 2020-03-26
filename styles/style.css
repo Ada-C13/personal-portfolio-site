@@ -5,7 +5,7 @@ font-family: 'Martel', serif;
 
 * {
   font-family: 'Sen', sans-serif;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
  body {
@@ -59,12 +59,13 @@ font-family: 'Martel', serif;
 /* end of nav bar */
 
 .wrapper-box {
-  /* background-color: white; */
   display: flex;
-  width: 50%;
+  width: 45%;
   padding: 3%;
   flex-wrap: wrap;
-  padding-top: 9%;
+  background-color: rgba(255,255,255, 0.4);
+  padding-top: 10%;
+  margin-left: 1%;
 }
 
 .half-and-half {
@@ -75,9 +76,21 @@ font-family: 'Martel', serif;
   /* margin: 10% 0% 0% 10% ; */
 }
 
-.half-and-half h1 {
-  
+.static-footer {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10%;
+  position: relative;
+  width: 30%;
+}
 
+#github-logo, #linkedin-logo {
+  width: 40px;
+  height: 40px;
+  max-width: 15%;
+  /* transform: scale(-1, -1); */
 }
 
 /* .floating-name {
@@ -91,7 +104,3 @@ font-family: 'Martel', serif;
 #headshot {
   border-radius: 50%;
 }
-
-footer {
-  /* background-color: blue; */
- }
