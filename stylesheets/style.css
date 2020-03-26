@@ -1,0 +1,10 @@
+
+body {
+  background-image: url(../images/flowers.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content-container {
+  display: grid;
+}
