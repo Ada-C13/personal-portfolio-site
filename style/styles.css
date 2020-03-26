@@ -18,7 +18,13 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-
+#contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  color:white;
+  font-size: 20px;
+ 
+}
 
 ul {
   display: grid;
@@ -65,33 +71,29 @@ header{
 
 main {
   background-color: rgba(0, 0, 0, 0.6);
-  border: 1px solid white;
-  width: 65%;
-  height: 670px;
+  /* border: 1px solid white; */
+  width: 70%;
+  height: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding: 25px;
-  
 }
-
-/* classes */
+#portfolio {
+  padding-top: 1%;
+  border: none;
+  margin-top: 5%;
+}
+/* index */
 
 .intro{
   color:white;
   text-align: center;
-  margin-bottom: 20px;
+   padding-top: 10px; 
 }
-
-
-
 .sections {
-  /* #background-color: #751318; */
   color: white;
   padding: 15px 0;
   margin-bottom: 45px;
   text-align: center;
-
-  
 }
 
 .columns {
@@ -109,12 +111,7 @@ main {
   padding-bottom: 20px;
 }
 
-.contact{
-  background-color: white;
-  padding-top: 60px;
-  margin-top: 50px;
-  padding: 10px;
-}
+/* projects  */
 
 .projects{
   display: grid;
@@ -131,31 +128,12 @@ main {
 }
 
 .project {
-  margin: 40px;
-}
-
-.my-project{
-  margin-bottom: 40px;
-  
-}
-
-
-p {
-  display: flex;
-  justify-content: flex-start;
-}
-
-#contact{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  color:white;
-  font-size: 20px;
- 
+  margin: 35px;
 }
 
 .about-me {
   width: 70%;
-  height: 670px;
+  height: 60%;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-left: auto;
@@ -166,24 +144,18 @@ p {
   grid-template-rows: 50% 50%;
   align-items: center;
   justify-items: center;
-  
-
 }
 
 .music, .photography {
   background-color: rgba(0, 0, 0, 0.6); 
-  padding: 25px;
-  padding-bottom: 20px;
-  margin-top: 75px;
+  padding: 5%;
+  padding-bottom: 5%;
+  margin-top: 25%;
   height: 60%;
 }
 
 .about-me-photos {
-  margin: 20% 10% 10% 20%;
+  margin: 30% 10% 10% 20%;
 }
 
-
-.photography > p {
-  /* grid-area: right; */
-}
 
