@@ -52,8 +52,10 @@ body{
   background-image: url(../Images/home-laptop.jpg);
   background-size: cover;
   height: 500px;
-  position: static;
+  
+}
+
+.laptop-image a{
   display: flex;
   flex-direction: column; 
 }
-
