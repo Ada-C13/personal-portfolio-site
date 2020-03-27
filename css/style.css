@@ -311,113 +311,115 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 30rem; }
-  .card__side {
-    font-size: 1rem;
-    height: 28rem;
-    transition: all .8s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
-    .card__side--front {
-      background-color: #FFF; }
-    .card__side--back {
-      transform: rotateY(180deg); }
-      .card__side--back--2 {
-        /* background-image: url("../img/babychecklist-2.png");
-        background-size: cover;
-        background-position: center; */
+  height: 30rem; 
+}
 
-        background-image: linear-gradient(to right bottom, #64e0fc, #0088b1); 
-      }
-  .card:hover .card__side--front {
-    transform: rotateY(-180deg); }
-  .card:hover .card__side--back {
-    transform: rotateY(0); }
-  .card__picture {
-    background-size: cover;
-    height: 15rem;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+.card__side {
+  font-size: 1rem;
+  height: 28rem;
+  transition: all .8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+}
   
-    .card__picture--1 {
-      background-image: url("../img/babychecklist.jpg"); }
-    .card__picture--2 {
-      background-image: url("../img/greatrgbgame.jpg"); }
-    .card__picture--3 {
-      background-image: url("../img/coffeewithsss-2.jpg"); }
-    .card__picture--4 {
-      background-image: url(../img/underconstruction.jpg); }
-    .card__picture--5 {
-      background-image: url(../img/underconstruction.jpg); }
-    .card__picture--6 {
-      background-image: url(../img/underconstruction.jpg); }
-  /* .card__heading {
-    font-size: 2.8rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: right;
-    color: #FFF;
-    position: absolute;
-    top: 13.5rem;
-    right: 2rem; }
-  .card__heading-span--1 {
-    background-image: linear-gradient(to right bottom, rgba(100, 224, 252, 0.95), rgba(0, 136, 177, 0.85)); }
-  .card__heading-span--2 {
-    background-image: linear-gradient(to right bottom, rgba(100, 224, 252, 0.95), rgba(0, 136, 177, 0.85)); } */
-  .card__details {
-    padding: 0 3rem;
-    text-align: center; }
+.card__side--front {
+  background-color: #FFF; 
+}
 
-  .card__details h3 {
-    padding: 20px;
-  }
+.card__side--back {
+  transform: rotateY(180deg); 
+}
 
-    .card__details ul {
-      list-style: none;
-      width: 80%;
-      margin: 0 auto; }
-      .card__details ul li {
-        text-align: center;
-        font-size: 1rem;
-        padding: 0.5rem; }
-        .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #eee; }
-  .card__cta {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center; }
-  .card__info {
-    text-align: center;
-    color: #FFF;
-    margin-bottom: 2rem; }
-    .card__info__text {
-      font-size: 1rem; }
-    
-    .card__info__text:not(:last-child) {
-      margin-bottom: 12px;
-    }
+.card__side--back--1 {
+  background-image: linear-gradient(to right bottom, #64e0fc, #0088b1);
+}
 
-  /* .card__picture-back {
-    background-size: cover;
-    height: 23rem;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
-    .card__picture-back--1 {
-      background-image: url("../img/babychecklist-2.png"); }
-    .card__picture-back--2 {
-      background-image: url(../img/greatrgbgame-2.jpg); }
-    .card__picture-back--3 {
-      background-image: url(../img/coffeewithsss.jpg); } */
+.card__side--back--2 {
+  background-image: linear-gradient(to right bottom, orange, darkorange); 
+}
 
+.card__side--back--3 {
+  background-image: linear-gradient(to right bottom, violet, mediumorchid); 
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg); 
+}
+
+.card:hover .card__side--back {
+  transform: rotateY(0); 
+}
+
+.card__picture {
+  background-size: cover;
+  height: 15rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+}
+
+.card__picture--1 {
+  background-image: url("../img/babychecklist.jpg"); 
+}
+
+.card__picture--2 {
+  background-image: url("../img/greatrgbgame.jpg"); 
+}
+
+.card__picture--3 {
+  background-image: url("../img/coffeewithsss-2.jpg"); 
+}
+
+.card__details {
+  padding: 0 3rem;
+  text-align: center; }
+
+.card__details h3 {
+  padding: 20px;
+}
+
+.card__details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto; 
+}
+
+.card__details ul li {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem; 
+}
+
+.card__details ul li:not(:last-child) {
+  border-bottom: 1px solid #eee; 
+}
+
+.card__cta {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center; 
+}
+
+.card__info {
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 2rem; 
+}
+
+.card__info__text {
+  font-size: 1rem; }
+  
+.card__info__text:not(:last-child) {
+  margin-bottom: 12px;
+}
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -426,39 +428,20 @@ body {
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
-  font-size: 1rem; }
+  font-size: 1rem; 
+}
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+}
 
 .btn--white {
   background-color: #FFF;
-  color: #777; }
-
-.btn--animated {
-  animation: moveInBottom .5s ease-out .85s;
-  animation-fill-mode: backwards; }
-
-.btn-text:link, .btn-text:visited {
-  font-size: 1.6rem;
-  color: #0088b1;
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px solid #0088b1;
-  padding: 3px;
-  transition: all .2s; }
-
-.btn-text:hover {
-  background-color: #0088b1;
-  color: #FFF;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
-
-.btn-text:active {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transform: translateY(0); }
+  color: #777;
+}
