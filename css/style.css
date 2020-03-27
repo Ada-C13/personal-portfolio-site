@@ -1,0 +1,55 @@
+/* pink F4CBD7
+teal  437C86
+dark brown 403930
+yellow D0BE7C */
+
+body {
+    padding-top: 5px;
+    font-family: "Arial";
+    color:  #395F65;
+}
+h1 {
+    font-size: 32px;
+    color:  #395F65;
+}
+h5 {
+    background-color: #F4CBD7;
+    color: #403930;
+}
+
+header {
+    display: flex;
+}
+
+
+header img {
+    width: 20%;
+    height: 20%; 
+}
+
+
+
+nav ul {       
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 0;
+  
+   }
+
+nav ul li {
+    border-bottom: 3px solid #395F65;
+    padding: 0 10px;
+    font-family: "Arial";
+    font-size: 16px;
+    color:  #395F65;
+  
+   }
+
+   /*   rainbow = https://w3bits.com/rainbow-text/ */
+   .rainbow {
+        color: #F4CBD7;
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+   }
