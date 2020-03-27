@@ -10,7 +10,7 @@ font-family: 'Martel', serif;
 
  body {
   margin: 0;
-  background-image: url(../portfolio_assets/half_sky.jpg);
+  background-image: url(../portfolio_assets/ariel_view_glass.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -58,23 +58,51 @@ font-family: 'Martel', serif;
 }
 /* end of nav bar */
 
-.wrapper-box {
+
+/* project tile wrapper */
+.all-project-tiles {
   display: flex;
-  width: 45%;
-  padding: 3%;
-  flex-wrap: wrap;
-  background-color: rgba(255,255,255, 0.4);
+  width: 90%;
+  padding: 1%;
+  background-color: rgba(255,255,255, 0.3);
   padding-top: 10%;
   margin-left: 1%;
 }
 
-.half-and-half {
+.inner-project-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  width: 100%;
   justify-content: space-around;
 }
 
+.project-tile {
+  padding: 2%;
+}
+
+.project-image {
+  border: 1px solid black;
+}
+
+/* .project-image:hover {
+  border: 1px solid #00a693;
+} */
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+article:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-title {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+/* footer styles */
 .footer-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -90,19 +118,9 @@ font-family: 'Martel', serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #github-logo, #linkedin-logo {
   width: 40px;
   height: 40px;
-}
-
-#headshot {
-  border-radius: 50%;
-  border: 3px solid black;
-}
-
-.name {
-  font-size: 300%;
 }

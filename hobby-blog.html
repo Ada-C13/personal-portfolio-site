@@ -1,9 +1,8 @@
-<!doctype html>
 <html lang="en-US">
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Sen:wght@400;700&display=swap" rel="stylesheet">
-	  <title>Home - Becca Roach Portfolio</title>
-    <link href="styles/style.css" rel="stylesheet">
+  	<title>Projects - Becca Roach Portfolio</title>
+    <link href="styles/portfolio_style.css" rel="stylesheet">
   </head>
 
   <body>
@@ -23,23 +22,82 @@
 
     <main>
 
-      <!-- Welcome section -->
-      <div class="welcome">
-        <img id="hero" src="./portfolio_assets/half_sky.jpg" alt="Background image of sky and skyscaper">
-        <img id="headshot" src="./portfolio_assets/headshot.jpeg" alt="Becca Roach headshot">
-        <h1>Becca Roach</h1>
-        <h2>Student at Ada Developers Academy</h2>
-        <img id="ada-logo" src="https://adadevelopersacademy.org/wp-content/uploads/2019/08/logo.png" alt="Ada Developers Academy logo" style="width:250px;">
-        <p>I love collaborating on impactful projects that do the world good.</p>
-      </div>
+      <!-- Projects section -->
+      <!-- Props to this website for building the Github card previewer: https://gh-card.dev/ -->
+
+      <section class="all-project-tiles">
+
+        <section class="inner-project-wrapper">
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/slack-cli" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/slack-cli.svg?link_target=_blank" alt="github slack cli card" class="project-image">
+              <p class="project-title">Slack CLI</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/hotel" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/hotel.svg?link_target=_blank" alt="github hotel card" class="project-image">
+              <p class="project-title">Hotel</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/grocery-store" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/grocery-store.svg?link_target=_blank" alt="github grocery-store card" class="project-image">
+              <p class="project-title">Grocery Store</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/adagrams" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/adagrams.svg?link_target=_blank" alt="github adagrams card" class="project-image">
+              <p class="project-title">Adagrams</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/ride-share" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/ride-share.svg?link_target=_blank" alt="github rideshare card" class="project-image">
+              <p class="project-title">Rideshare</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/baking-documentation-page" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/baking-documentation-page.svg?link_target=_blank" alt="github technical documentation card" class="project-image">
+              <p class="project-title">(Baking) Documentation Page</p>
+            </a>
+          </article>
+          
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/quote-machine" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/quote-machine.svg?link_target=_blank" alt="github quote-machine card" class="project-image">
+              <p class="project-title">Random Quote Machine</p>
+            </a>
+          </article>
+
+          <article class="project-tile">
+            <a href="https://github.com/RebeccaRoach/markdown-editor" target="_blank">
+              <img src="https://gh-card.dev/repos/RebeccaRoach/markdown-editor.svg?link_target=_blank" alt="github markdown-editor card" class="project-image">
+              <p class="project-title">Markdown Editor and Previewer</p>
+            </a>
+          </article>
+        </section>
+
+      </section> 
 
     </main>
 
   </body>
 
   <footer id="bottom">
-    <section class="static-footer" >
-      <h3>rebeccaroach12@gmail.com</h3>
+    <section class="footer-wrapper">
+      <section class="inner-footer-wrapper">
+        <a href="https://www.linkedin.com/in/the-rebecca-roach/" target=_blank><img id="linkedin-logo" src="./portfolio_assets/linked_in_logo.png" alt="LinkedIn logo"></a>
+        <h4>rebeccaroach12@gmail.com</h3>
+        <a href="https://github.com/RebeccaRoach" target=_blank><img id="github-logo" src="./portfolio_assets/github_logo.png" alt="Github logo"></a>
+      </section> 
     </section>
   </footer>
 
