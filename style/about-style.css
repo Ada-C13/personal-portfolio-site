@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #648767;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  font-size: xx-large;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e5df;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2c5ac;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c d e f";
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+}
+
+.index {
+  grid-area: a;
+}
+
+.about {
+  grid-area: d;
+}
+
+.portfolio {
+  grid-area: e;
+}
+
+.hobby {
+  grid-area: f;
+}
+
+.about-me {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "a b";
+}
+
+.about-me img {
+  width: 500px;
+  padding: 20 0 0 0;
+  border-radius: 30px;
+  
+}
+
+.about-me section {
+  font-size: 1.5em;
+  font-family: 'Fredoka One', cursive;
+  padding: 20px;
+}
+
+.things-i-love {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "a b c d e";
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  padding: 0px 5px 20px 5px;
+}
+
+.things-i-love li img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c";
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+}
