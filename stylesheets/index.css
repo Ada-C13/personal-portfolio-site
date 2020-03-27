@@ -1,0 +1,31 @@
+header {
+  background-image: url("../images/marble.jpg");
+}
+
+header nav a {
+  text-decoration: none;
+  color: #7a63c0;
+  margin-right: 10px;
+}
+.button:hover {
+  background-color: lavenderblush;
+}
+
+.flex-items {
+  background-image: url("../images/flowers.jpeg");
+  opacity:0.5;
+  transition: 1s ease;
+ }
+
+  
+  .flex-items:hover{
+  opacity:1;
+  transition: 1s ease;
+  }
+
+  main {
+    
+  }
+  footer {
+   
+  }

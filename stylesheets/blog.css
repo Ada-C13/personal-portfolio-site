@@ -1,0 +1,20 @@
+header {
+  background-image: url("../images/purple.jpeg");
+  color: snow;
+}
+
+header nav a {
+  text-decoration: none;
+  color: snow;
+  margin-right: 10px;
+}
+
+.fadein img{
+  opacity:0.5;
+  transition: 1s ease;
+  }
+  
+  .fadein img:hover{
+  opacity:1;
+  transition: 1s ease;
+  }

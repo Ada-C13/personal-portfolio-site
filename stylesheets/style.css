@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-}
+  }
 
 body {
   font-family: 'Overpass';
@@ -13,7 +13,6 @@ header {
   height: 250px;
   padding: 20px;
   text-align: center;
-  background-image: url("../images/marble.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -35,9 +34,13 @@ header nav {
 
 header nav a {
   text-decoration: none;
-  color: #7a63c0;
   margin-right: 10px;
 }
+
+.button:hover {
+  background-color: lavenderblush;
+}
+
 
 .container{
   display: flex;
