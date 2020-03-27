@@ -12,12 +12,9 @@ a {
 }
 a:link {
   text-decoration: none;
-  /* color: black; */
 }
 
 a:hover {
-  /* text-decoration: underline; */
-  /* cursor: cell; */
   cursor: -moz-grab;
 }
 
@@ -26,9 +23,7 @@ a:active {
 }
 
 img {
-  /* height: 100%; */
   width: 30%;
-  /* background-color: transparent; */
 }
 
 header {
@@ -77,8 +72,6 @@ header ul li {
 }
 
 footer {
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
   padding: 0;
 }

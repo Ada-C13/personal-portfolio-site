@@ -1,8 +1,4 @@
 main {
-  /* background-color: purple; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   text-align: center;
 }
 
@@ -32,19 +28,4 @@ main p {
 
 .resume:hover, .resume:active {
   background-color: red; 
-}
-
-footer {
-  /* display: flex;
-  flex-direction: column; */
-  text-align: center;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  width: 20%;
-  margin: auto;
 }
