@@ -5,24 +5,25 @@ font-family: 'Martel', serif;
 
 * {
   font-family: 'Sen', sans-serif;
+  /* border: 1px solid black; */
 }
 
-/* clears margin on far left */
-body {
+ body {
   margin: 0;
+  background-image: url(../portfolio_assets/bison.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+  position: relative;
 }
 
 .welcome {
+  padding-top: 5%;
   position: relative;
-  height: 100vh;
 }
 
-#hero {
-  width: 100%;
-  padding: 0px;
-  /* height: 100vh; */
-}
-
+/* Navigation Bar */
 .top-nav {
   background-color: #00a693;
   position: fixed;
@@ -30,7 +31,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-}
+} 
 
 /* h4 */
 .top-nav h4 a {
@@ -45,7 +46,6 @@ body {
   list-style-type: none;
   justify-content: flex-end;
   width: 100%;
- 
 }
 
 .nav-flex li {
@@ -56,87 +56,53 @@ body {
   text-decoration: none;
   color: white;
 }
+/* end of nav bar */
 
-
-#name {
-  color: white;
-  font-family: 'Spectral', serif;
-  font-style: italic;
-  font-size: 4em;
-  position: absolute;
-  padding: 75px;
-}
-
-#learning {
-  color: #ffa472;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.8em;
-  position: absolute;
-  padding-left: 16vw;
-  padding-right: 12vw;
-  padding-top: 30vh;
-}
-
-.project-grid {
-  background-color: #000066;
+.wrapper-box {
   display: flex;
-  flex-direction: row;
+  width: 45%;
+  padding: 3%;
   flex-wrap: wrap;
-  padding-top: 50px;
-  justify-content: space-evenly;
-  
+  background-color: rgba(255,255,255, 0.4);
+  padding-top: 10%;
+  margin-left: 1%;
 }
 
-.project-tile {
-  display: block;
-  flex-wrap: wrap;
-  max-width: 40%;
-}
- 
-
-.project-image {
-  object-fit: contain;
+.half-and-half {
+  display: flex;
+  align-items: center;
   width: 100%;
- 
+  justify-content: space-around;
 }
 
-.project-title {
-  font-size: 1.1em;
-  color: white;
-  text-align: center;
-  padding-bottom: 40px;
+.footer-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin-top: 15%;
 }
 
-.project-title:hover {
-  color: rgb(255,88,15);
-}
-  
+.inner-footer-wrapper {
+  width: 30%;
+  margin-right: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-a {
-  text-decoration: none;
-}
-
-#contact {
-background-color: #ffa472;
-text-align: center;
-height: 100vh;
-position: relative;
-display: table-cell;
-vertical-align: middle;
-width: 100vw;
 }
 
-.coffee {
-  font-family: 'Spectral', serif;
+#github-logo, #linkedin-logo {
+  width: 40px;
+  height: 40px;
 }
 
-#sayhello {
-  font-style: italic;
-  font-size: 1.1em;
+#headshot {
+  border-radius: 50%;
+  border: 3px solid black;
 }
 
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-style: bold;
+.name {
+  font-size: 300%;
 }
-*/
