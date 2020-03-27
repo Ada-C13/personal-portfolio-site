@@ -17,11 +17,13 @@ li {
 
 a {
   color: #e2e5df;
+  text-shadow: 2px 2px #788475;
   text-decoration: none;
 }
 
 a:hover {
   color: #a2c5ac;
+  text-shadow: 2px 2px #52796F;
 }
 
 nav > ul {
@@ -33,7 +35,7 @@ nav > ul {
   "a b c d e f";
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 .index {
@@ -68,7 +70,7 @@ nav > ul {
 }
 
 .about-me section {
-  font-size: 1.5em;
+  font-size: 2vw;
   font-family: 'Fredoka One', cursive;
   padding: 20px;
 }
@@ -87,6 +89,9 @@ nav > ul {
 .things-i-love li img {
   border-radius: 50%;
   width: 150px;
+}
+.things-i-love li img:hover {
+  box-shadow: 0 0 15px #E2E5DF;
 }
 
 footer > ul {

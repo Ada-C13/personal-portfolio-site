@@ -10,11 +10,13 @@ li {
 
 a {
   color: #e2e5df;
+  text-shadow: 2px 2px #788475;
   text-decoration: none;
 }
 
 a:hover {
   color: #a2c5ac;
+  text-shadow: 2px 2px #52796F;
 }
 
 nav > ul {
@@ -26,7 +28,7 @@ nav > ul {
   "a b c d e f";
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 2em;
+  font-size: 3vw;
 }
 
 .index {
@@ -59,7 +61,7 @@ header .intro-photo img {
 
 header .intro-box {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(82, 121, 111, 0.75);
