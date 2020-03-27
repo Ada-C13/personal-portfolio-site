@@ -32,7 +32,7 @@ header {
   font-size: 20px;
   font-weight: 100;
   padding: 100px 0;
-  background-image: url(/images/bg-header.png);
+  background-image: url(../images/bg-header.png);
 }
 
 .nav-links {
@@ -126,7 +126,7 @@ footer .copy {
 }
 
 .header-work {
-  background-image: url(/images/work-bak.png);
+  background-image: url(../images/work-bak.png);
   background-repeat: no-repeat;
   align-content: flex-start;
   background-position: center;
@@ -178,7 +178,7 @@ footer .copy {
 }
 
 .hexagon-in2:hover {   
-  background-image: url(http://placekitten.com/241/241);
+  /* background-image: url(http://placekitten.com/241/241); */
   color: transparent;
   -webkit-opacity: 0;
 	-moz-opacity: 0;
@@ -229,7 +229,7 @@ footer .copy {
 }
 
 #sorting:hover {
-  background-image: url(/images/sorting.png);
+  background-image: url(../images/sorting.png);
 }
 
 /* OO RIDE GIRHUB PROJECT */
@@ -251,7 +251,7 @@ footer .copy {
 }
 
 #oo-ride:hover {
-  background-image: url(/images/oop.png);
+  background-image: url(../images/oop.png);
 }
 
 
@@ -276,7 +276,7 @@ footer .copy {
 }
 
 #hotel:hover {
-  background-image: url(/images/hotel.png);
+  background-image: url(../images/hotel.png);
   color: transparent;
 }
 
@@ -301,7 +301,7 @@ footer .copy {
 }
 
 #slack:hover {
-  background-image: url(/images/slack.png);
+  background-image: url(../images/slack.png);
   color: transparent;
 }
 
@@ -323,14 +323,14 @@ footer .copy {
 }
 
 #arrays:hover {
-  background-image: url(/images/arrays.png);
+  background-image: url(../images/arrays.png);
 }
 
 
 /* ====== BLOG STYLES ======== */
 
 .header-blog {
-  background-image: url(/images/waterm-blog.png);
+  background-image: url(../images/waterm-blog.png);
   margin: 40px 0;
   padding: 150px 0;
 }
