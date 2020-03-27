@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,400;0,800;1,300&display=swap");
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+  color: #244c5e;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+
+}
+
+h3 {
+  font-family: 'Muli', sans-serif;
+  color: #eb4c87;
+}
+p {
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  color: #244c5e;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 100px 0;
+  background-image: url(../images/bg-header.png);
+}
+
+.nav-links {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+ 
+}
+
+li, .nav-link {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  color: #244c5e;
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-color: #6a6a65;
+  padding-bottom: 5px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+
+.nav-links li .nav-link {
+  transition: all 0.3s ease 0s;
+  border-bottom: 1px solid #6a6a65;
+
+}
+.nav-links li a:hover {
+  color: lightpink;
+  border-bottom: 1px solid lightpink;
+}
+
+.profile {
+  border-radius: 20%;
+  max-width: 200%;
+  height: auto;
+
+}
+
+.intro-container {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.about-me li {
+  text-transform: initial;
+}
+
+.footer-sec {
+  color: lightcoral;
+  display: flex;
+  justify-content:space-evenly;
+
+  margin: 0;
+  border-top: solid gray 2px;
+}
+
+.footer-sec p {
+  padding: 20px;
+  cursor: zoom-in;
+}
+
+.footer-sec p:hover {
+  color: #244c5e
+}
+
+footer .copy {
+  display: flex;
+  justify-content:center;
+  font-size: small;
+  color: gray;
+}
+
+.social-media {
+  text-decoration: none;
+}
+/* Work CSS */
+
+.work {
+  padding: 30px 0;
+}
+
+.arrow-work {
+  padding: 30px 0 0 0;
+}
+
+.header-work {
+  background-image: url(../images/work-bak.png);
+  background-repeat: no-repeat;
+  align-content: flex-start;
+  background-position: center;
+  margin-bottom: 80px;
+}
+
+
+.header-work h1{
+
+  margin-right: 80px;
+  font-weight: 400;
+  text-align: right;
+  font-size: 60px;
+}
+
+
+.hexagon
+{   overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+   
+}
+
+.hexagon-in1 {   overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    
+  
+}
+
+.hexagon-in2 {   width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* background-color:gray; */
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon-in2:hover {   
+  /* background-image: url(http://placekitten.com/241/241); */
+  color: transparent;
+  -webkit-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 1;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+
+}
+
+.hexagon1 {   
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 -80px;   
+    
+}
+
+.work-container {
+  padding: 30px 80px;
+  margin-bottom: 80px;
+  /* align-content: center; */
+}
+
+.hexa-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1.5fr;
+}
+
+
+/* SORING GIRHUB PROJECT */
+
+#item1 {
+  grid-column: 3 / span 3;
+  grid-row: 2 / span 2;
+}
+
+#sorting {
+  background-color: lightpink;
+}
+
+#sorting p {
+  padding: 80px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#sorting:hover {
+  background-image: url(../images/sorting.png);
+}
+
+/* OO RIDE GIRHUB PROJECT */
+
+#item2 {
+  grid-column: 5 / span 3;
+  grid-row: 3 / span 3;
+}
+
+#oo-ride {
+  background-color:#f6c483;
+}
+
+#oo-ride p {
+  padding: 70px 100px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#oo-ride:hover {
+  background-image: url(../images/oop.png);
+}
+
+
+/* Hotel GIRHUB PROJECT */
+
+
+#item3 {
+  grid-column: 7 / span 3;
+  grid-row: 2 / span 2;
+}
+
+#hotel {
+  background-color:#194b73;
+  color: lightpink;
+}
+
+#hotel p {
+  padding: 70px 100px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#hotel:hover {
+  background-image: url(../images/hotel.png);
+  color: transparent;
+}
+
+/* Slack-cli GIRHUB PROJECT */
+
+#item4 {
+  grid-column: 3 / span 3;
+  grid-row: 5 / span 2;
+  margin-top: 10px;
+}
+
+#slack {
+  background-color:#194b73;
+  color: lightpink;
+}
+
+#slack p {
+  padding: 70px 100px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#slack:hover {
+  background-image: url(../images/slack.png);
+  color: transparent;
+}
+
+#item5 {
+  grid-column: 7 / span 5;
+  grid-row: 5 / span 2;
+  margin-top: 10px;
+}
+
+#arrays {
+  background-color: lightpink;
+}
+
+#arrays p {
+  padding: 80px 100px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#arrays:hover {
+  background-image: url(../images/arrays.png);
+}
+
+
+/* ====== BLOG STYLES ======== */
+
+.header-blog {
+  background-image: url(../images/waterm-blog.png);
+  margin: 40px 0;
+  padding: 150px 0;
+}
+
+
+.my_posts { 
+  background-color:#588C94;
+  color: antiquewhite;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title-blog {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.columns {
+  width: 1000px; 
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px auto;
+}
+
+.column {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.columns a {
+  color: #eb4c87;
+  font-size: medium;
+  text-transform: capitalize;
+
+}
+
+.columns a:hover {
+  color:#32ddad;
+}
