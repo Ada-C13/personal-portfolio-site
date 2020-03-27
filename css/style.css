@@ -51,6 +51,14 @@ body {
   padding: 30px 20px;
 }
 
+.nav-header__menu li .fa-github {
+  font-size: 2rem;
+}
+
+.nav-header__menu li .fa-linkedin-in {
+  font-size: 1.6rem;
+}
+
 .nav-header__menu li a {
   text-decoration: none;
   color: white;
