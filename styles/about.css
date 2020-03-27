@@ -1,3 +1,6 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
 .intro{
   background-color: gray;
@@ -25,12 +28,13 @@
 
 /* Change the link color to #111 (black) on hover */
 .intro li a:hover {
-  background-color: paleturquoise;
+  background-color: lightgray;
 }
 
 .active {
-  background-color: pink;
+  background-color: lightsalmon;
 }
+
 .lak-bio{
   background-color: papayawhip;
   padding: 1px 20px;
@@ -47,7 +51,6 @@
   background: url(../images/linkedin.jpg);
   background-size: 200px;
   border-radius: 100px;
-  background-position:center;
   float: left;
   margin: 30px;
   shape-outside: circle();

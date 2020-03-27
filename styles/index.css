@@ -1,4 +1,6 @@
-
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 .intro{
   background-color: gray;
 }
@@ -25,11 +27,11 @@
 
 /* Change the link color to #111 (black) on hover */
 .intro li a:hover {
-  background-color: paleturquoise;
+  background-color: lightgray;
 }
 
 .active {
-  background-color: pink;
+  background-color: lightsalmon;
 }
 
 .body-intro {
@@ -37,7 +39,9 @@
   padding: 1em;
   color:black;
   background-size: cover;
-  border: 2px solid cadetblue;
+  border: 2px solid gray;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .body-intro ::first-letter {
@@ -50,9 +54,6 @@
   height: 500px;
   position: static;
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
-
-
 

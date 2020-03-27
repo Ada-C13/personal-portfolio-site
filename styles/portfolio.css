@@ -11,6 +11,10 @@
   background-color: gray
 }
 
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
 .intro li {
   float: left;
 }
@@ -25,13 +29,12 @@
 
 /* Change the link color to #111 (black) on hover */
 .intro li a:hover {
-  background-color: paleturquoise;
+  background-color: lightgray;
 }
 
 .active {
-  background-color: pink;
+  background-color: lightsalmon;
 }
-
 table, th, td {
   border: 1px solid black;
 }
