@@ -1,0 +1,31 @@
+main {
+  text-align: center;
+}
+
+h1 {
+  padding: 30px 0;
+  font-size: 2.5em;
+  margin: 0 15%;
+}
+
+main p {
+  font-size: 1.5em;
+}
+
+.resume {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.resume:link, .resume:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.resume:hover, .resume:active {
+  background-color: red; 
+}
