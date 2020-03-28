@@ -248,6 +248,7 @@ body {
   margin: 0 20px;
   border: 1px solid rgb(217, 217, 217);
   border-radius: 10px;
+  background-color: rgb(255, 245, 252);
 }
 
 .stack__type {
@@ -283,6 +284,10 @@ body {
 .stack__type ul {
   list-style-type: none;
   margin-bottom: 20px;
+}
+
+.stack__type ul li {
+  margin: 4px;
 }
 
 .section-blog {
