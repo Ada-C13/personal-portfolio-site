@@ -1,34 +1,44 @@
+/* Global styles */
 body {
   margin: 0 auto;
-  min-height: 100%;
   font-size: 18px;
   color: #333;
   font-family: "Roboto", sans-serif;
   line-height: 1.25;
 }
 
-.wrapper {
-  display: grid;
-  height: 100vh;
-  grid-template-row: auto 35px
-  /* FOR 2 column layout 
-  grid-template: 70px auto 35px / 1fr 4fr;
-  */
+/* Heading styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #001f3f;
 }
 
+h1.intro {
+  
+}
 
-/* Header Nav styling */
+/* Nav styling */
 header {
-  position: fixed;
   width: 100%;
+  position: fixed;
   font-size: 20px;
+  padding: 20px 0px;
   background: #39cccc;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav ul {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   list-style-type: none;
 }
 
@@ -42,22 +52,13 @@ header nav ul {
   color: #fff;
 }
 
-.current {
-  margin: 0 0.2em;
-  padding: 3px 5px;
-  border-radius: 2px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #fff;
-}
-
 .nav-link:hover {
   background: #7fdbff;
 }
 
 /* Main styling */
 main {
-  padding: 5em 2em;
+  padding: 4em 1em;
 }
 
 main.strong {
@@ -89,4 +90,18 @@ footer {
   padding: 20px 20px;
   background: #39cccc;
   color: #fff;
+}
+
+/* About */
+img.profile {
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 250px;
+  height: auto;
+}
+
+/* Main Flex styling */ 
+main .flex-container {
+  display: flex;
+  justify-content: center;
 }
