@@ -1,8 +1,3 @@
-/*font families
-font-family: 'Sen', sans-serif;
-font-family: 'Martel', serif;
-*/
-
 * {
   font-family: 'Sen', sans-serif;
 }
@@ -63,7 +58,7 @@ font-family: 'Martel', serif;
 
 #headshot {
   border-radius: 50%;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 .name {
