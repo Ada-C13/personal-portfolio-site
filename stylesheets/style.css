@@ -1,0 +1,147 @@
+body {
+	background-color: #eeeeee;
+	font-size: 1.25em;
+	padding: 0;
+	margin: 0;
+}
+
+body, h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h1 {
+	color: #e23e57;
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin-bottom: 0.25em;
+}
+
+h2 {
+	color: #00adb5;
+	font-size: 2.25em;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+footer, nav a {
+	padding: 20px;
+}
+
+footer {
+	font-size: 0.6em;
+}
+
+nav {
+	font-family: 'Roboto Mono', monospace;
+	text-transform: lowercase;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+	justify-content: space-around;
+}
+
+nav ul li {
+	font-size: 1.25em;
+	margin-bottom: 20px;
+}
+
+nav a {
+	color: #E2E2E2;
+	text-decoration: none;
+}
+
+nav a:hover, #index-intro em, footer {
+	color: #00adb5;
+}
+
+main {
+	color: #222831;
+	background-image: url('../images/texturetastic_gray.png');
+  background-repeat: repeat;
+	grid-area: 1 / 2 / 2 / 3;
+	height: 100vh;
+}
+
+main section {
+	line-height: 1.5em;
+	margin: 50px;
+}
+
+#grid-container {
+	display: grid;
+	grid-template: auto / 23% auto;
+	text-align: center;
+}
+
+#sidebar, #index-container, #portfolio {
+	display: flex;
+}
+
+#sidebar {
+	flex-direction: column;
+	background-color: #222831;
+	color: #eee;
+	border-right: 10px solid #393e46;
+}
+
+#sidebar nav {
+	margin-top: 2em;
+	flex: 2;
+}
+
+#about, #sidebar nav, #portfolio, #index-container, .entry {
+	text-align: left;
+}
+
+#profile-pic {
+	box-shadow: 10px -10px #00adb5;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#profile-pic, #portfolio img {
+	float: left;
+	margin-right: 25px;
+	width: 300px;
+}
+
+#index-container {
+	align-items: center;
+}
+
+#index-intro {
+	font-size: 3em;
+	line-height: 1.25em;
+	width: 50vw;
+	margin-left: 1em;
+}
+
+#index-intro strong {
+	color: #b83b5e;
+}
+
+#portfolio {
+	flex-wrap: wrap;
+}
+
+.entry {
+	border-bottom: 1px solid #888;
+	padding-bottom: 0.5em;
+}
+
+.entry h3, .entry p {
+	margin: 0.5em 0;
+}
