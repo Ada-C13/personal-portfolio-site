@@ -1,0 +1,92 @@
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  font-size: 18px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.25;
+}
+
+.wrapper {
+  display: grid;
+  height: 100vh;
+  grid-template-row: auto 35px
+  /* FOR 2 column layout 
+  grid-template: 70px auto 35px / 1fr 4fr;
+  */
+}
+
+
+/* Header Nav styling */
+header {
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  background: #39cccc;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 0 0.2em;
+  padding: 3px 5px;
+  background: #0074d9;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.current {
+  margin: 0 0.2em;
+  padding: 3px 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link:hover {
+  background: #7fdbff;
+}
+
+/* Main styling */
+main {
+  padding: 5em 2em;
+}
+
+main.strong {
+  color: #333;
+}
+
+/* Main link styling */
+main a {
+  border-bottom: 1px dashed #aaaaaa;
+  text-decoration: none;
+  color: #0074d9;
+}
+
+main a:hover {
+  color: #7fdbff;
+}
+
+main a:active {
+  color: #39cccc;
+}
+
+main a:visited {
+  color: #aaaaaa;
+}
+
+/* Footer styling */
+footer {
+  font-size: 12px;
+  padding: 20px 20px;
+  background: #39cccc;
+  color: #fff;
+}
