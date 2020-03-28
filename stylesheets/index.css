@@ -4,8 +4,9 @@ header {
 
 header nav a {
   text-decoration: none;
-  color: #7a63c0;
+  color: grey;
   margin-right: 10px;
+  font-size: 1.25rem;
 }
 
 h2 a {
