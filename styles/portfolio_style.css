@@ -1,11 +1,5 @@
-/*font families
-font-family: 'Sen', sans-serif;
-font-family: 'Martel', serif;
-*/
-
 * {
   font-family: 'Sen', sans-serif;
-  /* border: 1px solid black; */
 }
 
  body {
@@ -56,6 +50,10 @@ font-family: 'Martel', serif;
   text-decoration: none;
   color: white;
 }
+
+.nav-flex li a:hover {
+  color: black;
+}
 /* end of nav bar */
 
 
@@ -98,7 +96,7 @@ article:hover {
   text-decoration: none;
 }
 
-/* footer styles */
+/* footer */
 .footer-wrapper {
   display: flex;
   justify-content: flex-end;

@@ -5,7 +5,6 @@ font-family: 'Martel', serif;
 
 * {
   font-family: 'Sen', sans-serif;
-  /* border: 1px solid black; */
 }
 
  body {
@@ -56,25 +55,40 @@ font-family: 'Martel', serif;
   text-decoration: none;
   color: white;
 }
+
+.nav-flex li a:hover {
+  color: black;
+}
 /* end of nav bar */
 
 .wrapper-box {
   display: flex;
-  width: 45%;
+  width: 47%;
   padding: 3%;
   flex-wrap: wrap;
-  background-color: rgba(255,255,255, 0.4);
-  padding-top: 10%;
+  background-color: rgba(255,255,255, 0.6);
+  padding-top: 8%;
   margin-left: 1%;
 }
 
-.half-and-half {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-around;
+.buttons {
+  margin-left: 1%;
 }
 
+button {
+  background:rgba(255,255,255, 0.6);
+  margin-top: 2%;
+  padding: 1%;
+  /* text-align: center; */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+button:hover {
+  background:rgba(0, 166, 147, 1);
+}
+
+/* footer */
 .footer-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -96,13 +110,4 @@ font-family: 'Martel', serif;
 #github-logo, #linkedin-logo {
   width: 40px;
   height: 40px;
-}
-
-#headshot {
-  border-radius: 50%;
-  border: 3px solid black;
-}
-
-.name {
-  font-size: 300%;
 }

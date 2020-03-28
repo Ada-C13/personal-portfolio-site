@@ -1,11 +1,5 @@
-/*font families
-font-family: 'Sen', sans-serif;
-font-family: 'Martel', serif;
-*/
-
 * {
   font-family: 'Sen', sans-serif;
-  /* border: 1px solid black; */
 }
 
  body {
@@ -56,15 +50,19 @@ font-family: 'Martel', serif;
   text-decoration: none;
   color: white;
 }
+
+.nav-flex li a:hover {
+  color: black;
+}
 /* end of nav bar */
 
 
 /* project tile wrapper */
 .all-project-tiles {
   display: flex;
-  width: 90%;
+  width: 85%;
   padding: 1%;
-  background-color: rgba(255,255,255, 0.6);
+  background-color: rgba(255,255,255, 0.5);
   padding-top: 10%;
   margin-left: 1%;
 }
@@ -83,7 +81,7 @@ font-family: 'Martel', serif;
 
 .project-image {
   border: 1px solid black;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 article a {
@@ -91,7 +89,7 @@ article a {
   color: black;
 }
 
-article a:hover {
+article:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -100,7 +98,11 @@ article a:hover {
   text-decoration: none;
 }
 
-/* footer styles */
+.project-tile p {
+  font-size: 0.9em;
+}
+
+/* footer */
 .footer-wrapper {
   display: flex;
   justify-content: flex-end;
