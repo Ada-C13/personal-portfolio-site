@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #648767;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e5df;
+  text-shadow: 2px 2px #788475;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2c5ac;
+  text-shadow: 2px 2px #52796F;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c d e f";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5vw;
+}
+
+.index {
+  grid-area: a;
+}
+
+.about {
+  grid-area: d;
+}
+
+.portfolio {
+  grid-area: e;
+}
+
+.hobby {
+  grid-area: f;
+  padding-right: 10px;
+}
+
+
+
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "a b c";
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+}
