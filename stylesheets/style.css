@@ -16,6 +16,22 @@ body {
   */
 }
 
+/* Heading styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #001f3f;
+}
+
+.flex-container h1 {
+  align-self: center;
+}
 
 /* Header Nav styling */
 header {
@@ -65,21 +81,21 @@ main.strong {
 }
 
 /* Main link styling */
-main a {
+.main a {
   border-bottom: 1px dashed #aaaaaa;
   text-decoration: none;
   color: #0074d9;
 }
 
-main a:hover {
+.main a:hover {
   color: #7fdbff;
 }
 
-main a:active {
+.main a:active {
   color: #39cccc;
 }
 
-main a:visited {
+.main a:visited {
   color: #aaaaaa;
 }
 
@@ -89,4 +105,65 @@ footer {
   padding: 20px 20px;
   background: #39cccc;
   color: #fff;
+}
+
+/* About */
+img.profile {
+  padding: 10px;
+  min-width: 100px;
+  max-width: 250px;
+  height: auto;
+}
+
+.about, .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Portfolio */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  align-items: flex-start;
+  min-width: 0px;
+  width: 200px;
+  margin-bottom: 2%;
+  border: 2px solid #AAA;
+  position: relative;
+  padding: 10px;
+}
+
+.project + .project {
+  margin-left: 2;
+}
+
+.projects a {
+  color: #001f3f;
+}
+
+.projects a:hover {
+  color: #7fdbff;
+}
+
+.projects a:active {
+  color: #39cccc;
+}
+
+.projects a:visited {
+  color: #5b5b5b;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
