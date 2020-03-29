@@ -74,6 +74,7 @@ header {
 
 .container:hover .image {
   opacity: 0.5;
+  box-shadow: 0 0 15px #E2E5DF;
 }
 
 .container:hover .display-text {

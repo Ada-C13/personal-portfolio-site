@@ -67,7 +67,7 @@ nav > ul {
 .about-me img {
   width: 75%;
   padding: 50px;
-  border-radius: 30px;
+  border-radius: 10%;
 }
 
 .about-me h1 {
@@ -98,7 +98,7 @@ nav > ul {
 
 .things-i-love li img {
   border-radius: 50%;
-  width: 150px;
+  width: 15vw;
 }
 
 .things-i-love li img:hover {
