@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #333;
+    color: #f4f4f4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: darksalmon;
+}
+
+h1 {
+    color: olive;
+}
+
+.intro {
+
+    background: peru;
+    width: 500px;
+    text-alighn: center;
+}
+
+ul {
+    font-size: 20px;
+    background: white;
+    color: #333;
+    width: 150px;
+    padding: 50px;
+    border-color: brown;
+    border-width: 20px;
+    border-style: solid;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: silver;
+    padding: 25px;
+    shape-outside:white;
+}
+
+footer {
+    background-color: silver;
+    color: darkcyan;
+
+}
+
+.columns {
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.column {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
