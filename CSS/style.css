@@ -1,7 +1,5 @@
 
  /* INDEX*/
-
-
 .nav {
   position: fixed;
   top: 0;
@@ -13,25 +11,27 @@
   display: flex;
   justify-content: flex-start;
   margin-right: 2rem;
+  
 
 }
 .nav-links li {
   padding: 20px;
   text-decoration: none;
+  color: black;
 
 }
 body {
   margin: 0.5;
   font-size: 21px;
-  background-color: slategray;
+  background-color: rgb(58, 95, 119);
   border-style: double;
   padding: 0%;
 }
 .header-class {
   text-align: center;
-  color: cadetblue;
-  background-color: darkolivegreen;
-  padding: 100px 0; 
+  color: rgb(18, 22, 24);
+  padding: 50px;
+
   
 }
 .Ada {
@@ -56,28 +56,48 @@ body {
 
 
 /* PORTFOLIO FILE */
-.project-img {
+#portfolio-body {
+  background-color: #1C0804;
+}
+
+/* .project-img {
   width: 50%;
   height: auto;
-  border-radius: 50%;
+  border-width: 60px;
   display: flex;
-
-
+}  */
+.project-header {
+  color: white;
 }
+
+.project-img {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: fill;
+  padding: 20px;
+  margin: 40px;
+}
+
 .ada-projects {
+  background: gray;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
-
-
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
 }
+
 
 
 /* HOBBY FILE */
 
 .hobby-class {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   width: 1000px;
   margin: 100px;
 
@@ -89,7 +109,10 @@ body {
 .food-img {
   width: 50%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-column-align: stretch;
 
 }
 
@@ -100,9 +123,5 @@ body {
   width: 1000px;
   text-align: center;
   margin: 40px auto;
-
+  
 }
-.Home {
-  background-color: darkslategray;
-}
-
