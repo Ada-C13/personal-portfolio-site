@@ -14,23 +14,42 @@ body {
   grid-template-rows: 60% 35% 5%;
 }
 
-/* about.html */
+/* apply in pages other then the homepage b/c the number of grids are different*/
 .wrapper-pages {
-  /* box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0.5rem;
-  display: grid; */
-  background-color: burlywood;
+  background-color: white;
   font-family: 'Roboto Mono', monospace;
   justify-content: stretch;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto auto;
 }
-/* about.html */
 
+
+.home-banner {
+  grid-column: 1 / 5;
+  grid-row: 1;
+  background-image: url("../images/banner-background-image.jpg");
+  background-size: cover;
+  color: #2fa281;
+}
+
+
+/* apply in pages other then the homepage b/c the banner locations are different*/
+.pages-banner {
+  grid-column: 1 / 5;
+  grid-row: 2;
+  background-color: white;
+  color: black;
+}
+
+
+.center-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}
 
 .menu {
   grid-column: 1 / 5;
@@ -42,111 +61,73 @@ body {
   align-items: stretch;
 }
 
-/* about.html */
+/* apply in pages other then the homepage to overwrite the .menu b/c the nav bar locations are different*/
 .pages-menu {
   margin-top: 1rem;
   grid-column: 1 / 5;
   grid-row: 1;
-  /* display: flex;
-  flex-direction: row; */
   flex-wrap: nowrap;
-  /* justify-content: space-evenly;
-  white-space: nowrap; */
 }
-/* about.html */
-
-.menu > div {
-  border-radius: 5px;
-  padding: 1em;
-}
-
-.center-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vw;
-}
-
-/* about.html */
-.pages-center-item {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
-  font-size: 15px;
-}
-/* about.html */
-
-/* portfolio.html */
-.portfolio-center-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-  font-size: 15px;
-}
-/* portfolio.html */
 
 a {
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color:red;
 }
-
-.home-header {
-  grid-column: 1 / 5;
-  grid-row: 1;
-  background-color:orange;
-  color: white;
-}
-
-/* about.html */
-.pages-header {
-  grid-column: 1 / 5;
-  grid-row: 2;
-  background-color: black;
-  color: white;
-}
-/* about.html */
-
-
 
 .nav-home {
   flex: 1;
-  background-color: red;
+  background-color:#c6ffdd;
 }
 
 .nav-about {
   flex: 1;
-  background-color: seagreen;
+  background-color: #E6E6A7;
 }
 
 .nav-portfolio {
   flex: 1;
-  background-color: skyblue;
+  background-color:#FABB83;
 }
 
 .nav-hobby {
   flex: 1;
-  background-color: cornsilk;
+  background-color: #f7797d;
 } 
 
-/* about.html */
-/* article {
-  grid-column: 2 / 4;
-  grid-row: 3;
-} */
-/* about.html */
+.rounded-corners {
+  border-radius: 5px;
+  padding: 1em;
+}
 
-/* about & portfolio.html */
-section {
+.fixed-font {
+  font-size: 15px;
+}
+
+/* the color gradients code is from http://uigradients.com/ */
+.home-footer {
+  grid-column: 1 / 5;
+  grid-row: 3;
+  font-size: 1rem;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-bottom: 0.5rem;
+}
+
+/* apply in pages other then the homepage to overwrite the .menu b/c the footer locations are different*/
+.pages-footer {
+  grid-column: 1 / 5;
+  grid-row: 4;
+}
+
+/* apply in pages other then the homepage */
+.main-content {
   grid-column: 2 / 4;
   grid-row: 3;
 }
-/* about & portfolio.html */
 
 .self-photo {
   width: 40%;
@@ -154,25 +135,6 @@ section {
   float: left;
   margin-right: 10px;
 }
-
-.item6 {
-  grid-column: 1 / 5;
-  grid-row: 3;
-  font-size: 1rem;
-  background-color: hotpink;
-  margin-bottom: 0.5rem;
-}
-
-/* about.html */
-.item7 {
-  grid-column: 1 / 5;
-  grid-row: 4;
-  font-size: 1rem;
-  background-color: hotpink;
-  margin-bottom: 0.5rem;
-  /* align-self: stretch; */
-}
-/* about.html */
 
 .blog-border {
   border: 2px solid brown;
