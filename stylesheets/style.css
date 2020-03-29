@@ -11,9 +11,6 @@ body {
   display: grid;
   height: 100vh;
   grid-template-row: auto 35px
-  /* FOR 2 column layout 
-  grid-template: 70px auto 35px / 1fr 4fr;
-  */
 }
 
 /* Heading styling */
@@ -35,7 +32,6 @@ h6 {
 
 /* Header Nav styling */
 header {
-  position: fixed;
   width: 100%;
   font-size: 20px;
   background: #39cccc;
@@ -73,7 +69,7 @@ header nav ul {
 
 /* Main styling */
 main {
-  padding: 5em 2em;
+  padding: 3em 2em;
 }
 
 main.strong {
@@ -113,6 +109,7 @@ img.profile {
   min-width: 100px;
   max-width: 250px;
   height: auto;
+  border-radius: 25px;
 }
 
 .about, .contact {
@@ -125,21 +122,20 @@ img.profile {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .project {
   align-items: flex-start;
   min-width: 0px;
   width: 200px;
-  margin-bottom: 2%;
+  margin: 5px;
   border: 2px solid #AAA;
   position: relative;
   padding: 10px;
 }
 
 .project + .project {
-  margin-left: 2;
+  margin-left: 5px;
 }
 
 .projects a {
@@ -160,6 +156,68 @@ img.profile {
 
 .date {
   font-size: 12px;
+}
+
+/* Notes grid */
+.notes-wrapper {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-template-rows: 70px 1fr 30px;
+  grid-template-areas: "notes-header notes-header notes-header" "side-nav notes-main notes-main" "notes-footer notes-footer notes-footer";
+}
+
+.notes-header { 
+  grid-area: notes-header;
+}
+
+.notes-footer { 
+  grid-area: notes-footer;
+}
+
+.notes-main { 
+  grid-area: notes-main;
+}
+
+/* Notes */
+.note hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Notes side nav */
+.side-nav {
+  grid-area: side-nav;
+  font-size: 12px;
+  padding: 10px 10px;
+  background: #AAA;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.side-nav h3 {
+  color: #000;
+}
+
+.side-nav ul {
+  list-style-type: none;
+}
+
+.side-nav a {
+  align-self: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2;
+}
+
+.side-nav a:hover {
+  background: #7fdbff;
 }
 
 /* Flex container */
