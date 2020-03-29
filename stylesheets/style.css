@@ -1,0 +1,76 @@
+/* Color palette: https://coolors.co/323031-424b54-ef2d56-f87060-e7e247
+Jet: #323031 
+Outer Space: #424b54
+Amaranth: #ef2d56
+Bittersweet: #f87060
+Sandstorm: #e7e247
+*/
+
+/* FONTS */
+
+/* Code generated using Font Squirrel's Webfont Generator (https://www.fontsquirrel.com/tools/webfont-generator) */
+
+@font-face {
+  font-family: 'Walter Turncoat';
+  src: url('../fonts/walterturncoat-regular-webfont.woff2') format('woff2'),
+       url('../fonts/walterturncoat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* BASIC STYLES */
+
+body {
+  background-color: #323031;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #ef2d56;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+  h1 a {
+    color: #ef2d56;
+  }
+
+  h1 a:hover {
+    color: #e7e247;
+    -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+  }
+
+h2 {
+  color: #f87060;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+a {
+  color: #e7e247;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef2d56;
+  -moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+  -webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+  -o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+  -ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+  transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+}
+
+nav ul {
+  list-style: none;
+}
