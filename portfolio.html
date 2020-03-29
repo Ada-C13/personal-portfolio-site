@@ -1,44 +1,74 @@
 <!DOCTYPE html>
-  <html>
+  <html lang="en-us">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Haben's Portfolio</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body data-gr-c-s-loaded="true">
-      <h1>
-        <a href="index.html">My Personal Portfolio</a>
-      </h1>
-      <nav>
-        <ul class="nav"></ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="hobby.html">Hobby</a>
-          </li>
-        </ul>
-      </nav>
+  <body data-gr-c-s-loaded="true">  
+    <!-- START NAV -->
+  <nav id="navbar" class="nav">
+    <ul class="nav-links">
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+        <a href="hobby.html">Hobby</a>
+      </li>
+    </ul>
+  </nav>
+      <!-- End Nav -->
+  
+
     <main>
-      <div class="Ada-Projects">
-        <div class="portfolio">
-          <h2>
-            <a href="https-github-slack-cli"> target="_blank">
-              <i class="fa fa-github">
-                ::before
-              </i>
-              "Slack-CLI"
-              </a>
-          </h2>
+      <header class="header-class">
+        <h2 class="project-header">My Projects at Ada</h2>
+      </header>
+      <section class="ada-projects">
+       
+        <div class="slack">
+         <a href="https://github.com/HabenFoto/slack-cli.git" target="_blank">
+         <img class="project-img"src="images/slack.JPG" alt="An image of a robot">
+        </a>
+        </div>
+              
+        <div class="hotel">
+          <a href="https://github.com/HabenFoto/hotel.git" target="_blank">
+          <img class="project-img"src="images/hotel.JPG" alt="An old hotel picture">
+         </a>
+         </div>
 
 
-    </main>  
+         <div class="rideshare">
+          <a href="https://github.com/HabenFoto/oo-ride-share.git" target="_blank">
+          <img class="project-img"src="images/rideshare.JPG" alt="Rideshare pictures">
+         </a>
+         </div>
 
-    
-  </body>
-
-</html>
+         <div class="solar-system">
+          <a href="https://github.com/HabenFoto/solar-system.git" target="_blank">
+          <img class="project-img"src="images/solar-system.JPG" alt="Rideshare pictures">
+         </a>
+         </div>
+          
+      </section>
+    </main> 
+    <footer>
+      <section class="contact-section">
+        <div class="contact-links">
+          <a class="contact" href="https://github.com/HabenFoto" target="_blank">
+            <p><i class="fab fa-github"></i> Github</p>
+          </a>
+          <a class="contact" href="https://linkedin.com/in/haben-foto" target="_blank">
+            <p><i class="fab fa-linkedin"></i> Linkedin</p>
+          </a>
+        </div>
+      </section>
+      </footer>
+      </body>
+      </html> 

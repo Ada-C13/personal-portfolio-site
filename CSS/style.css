@@ -1,74 +1,108 @@
 
  /* INDEX*/
+
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 2rem;
+
+}
+.nav-links li {
+  padding: 20px;
+  text-decoration: none;
+
+}
 body {
   margin: 0.5;
-  /* this font size will effect all elements (other than h1 -> h6) on the page */
   font-size: 21px;
+  background-color: slategray;
+  border-style: double;
+  padding: 0%;
+}
+.header-class {
+  text-align: center;
+  color: cadetblue;
+  background-color: darkolivegreen;
+  padding: 100px 0; 
   
-  background-image: url(/images/Lake-Cresent.JPG);
-  background-size: 100% 200%;
 }
-img {
-  width: 25%;
-  height: 50%;
-
-}
-
-/* ========
-Typography 
-======== */
-
-h1 a {
-  font-size: 48px;
-  color: coral;
+.Ada {
+  width: 600px;
+  text-align: center;
+  font-family: cursive;
+  margin: 100px auto;
 
 }
-h1 {
+.contact {
+  padding: 20px;
+  margin: 10px;
+
+}
+.contact-links {
+  display: flex;
+  justify-content: flex-start;
  
-  text-align: center;
-
 }
 
-h2 {
-  font-size: 36px;
-}
 
-h3 {
-  font-size: 28px;
-}
 
-/* ========
-Layout 
-======== */
 
-header {
-  background-color: #588C94;
-  color: white;
-  padding: 30px 0;
-  text-align: center;
-}
-.nav {
+/* PORTFOLIO FILE */
+.project-img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
   display: flex;
-  justify-content: flex-end;
-  justify-content: space-evenly;
+
 
 }
-.index-container {
-  padding: 40px;
-  margin: 30px;
-  background-color: teal;
+.ada-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+
+
+}
+
+
+/* HOBBY FILE */
+
+.hobby-class {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
+  margin: 100px;
+
+}
+.hobby {
+  padding: 30px;
+
+}
+.food-img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
 
 }
 
 
 
-
-/*ABOUT*/
-.about-body {
-  background-image: none;
-}
-.about-container {
-  display: flex;
-  justify-content: space-around;
+/*ABOUT FILE*/
+.about-class{
+  width: 1000px;
+  text-align: center;
+  margin: 40px auto;
 
 }
+.Home {
+  background-color: darkslategray;
+}
+
