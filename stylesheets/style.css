@@ -1,0 +1,123 @@
+/* Navbar */
+nav {
+    display: block;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #333333;
+    display: inline;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 0;
+}
+
+nav a.navbar-brand {
+    font-size: 20px;
+    margin-right: 30px;
+    padding-left: 0px;
+}
+
+nav a.nav-link {
+    padding-top: 17px;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+/* Body */
+
+html, body {
+    height: 100%;
+}
+
+body > .page {
+    height: auto;
+    min-height: 100%;
+}
+  
+body { 
+    padding-top: 60px;
+    width: 100%;
+    color: #333333;
+    font-family: Lato, Arial, Sans-Serif;
+    margin: 0;
+}
+
+.page { 
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Inconsolata';
+    font-size: 3em;
+}
+
+p {
+    max-width: 650px;   
+}
+
+/* Contact */
+
+.mail {
+    color: #f50057;
+}
+
+.mail:hover {
+    color: #333333;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -150px;
+}
+
+.social-nav {
+    list-style: none;
+    text-align: center;
+}
+
+.social-nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.social-nav a {
+    color: white;
+}
+
+.social-nav a:hover {
+    color: #f50057;
+}
+  
