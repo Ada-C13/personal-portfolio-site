@@ -1,0 +1,27 @@
+.left > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left p {
+  padding: 20px;
+  text-align: center;
+}
+
+.right > img {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.social-links {
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
