@@ -56,7 +56,7 @@ h1 {
     transition: color .35s ease-in-out;
   }
 
-h2 {
+h2, h3 {
   color: #f87060;
   font-family: 'Walter Turncoat', cursive;
   text-align: center;
@@ -124,6 +124,30 @@ nav ul {
     display: inline-block;
   }
 
+/* PORTFOLIO ITEMS */
+
+.projects ul li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+  .projects ul li a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #e7e247;
+    color: #323031;
+    padding: .25em;
+  }
+
+  .projects ul li a:hover {
+    background-color: #ef2d56;
+    color: #e7e247;
+    transition: background-color .5s ease-in-out;
+  }
+
+
 /* IMAGES */
 
 #icon, #profile {
@@ -151,8 +175,8 @@ nav ul {
 }
 
 /* GRID LAYOUT */
-/* 
-* {
+
+/* * {
   border: 1px solid black;
 } */
 
@@ -180,4 +204,10 @@ nav ul {
 .footer {
   grid-column: 1 / 4;
   padding: 3em;
+}
+
+.projects {
+  display: grid;
+  justify-content: center;
+  margin: 1em 0;
 }
