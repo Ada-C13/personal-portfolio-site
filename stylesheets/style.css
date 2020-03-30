@@ -1,26 +1,48 @@
-header {
-  background-color:#6e143f;
-  color: whitesmoke;
-  padding: 30px;
-}
 .header-img {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 45%;
+  padding: 20px;
 }
 
 nav{
-  background-color: gray;
+  background-color: black;
+  text-align: center;
 }
 
 nav a {
   color: white;
-  display: block;
-  margin: auto;
   font-size: 30px;
-  padding: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 40px;
+}
+
+.container {
+  width: 80%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 65% 60%;
 }
 .index-img {
-  width: 40%;
-  background-color: #b39aa5
+  width: 100%;
+}
+
+.quick-bio{
+ width: 100%;
+ margin-top: 100px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+footer a {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
 }
