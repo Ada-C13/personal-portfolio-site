@@ -7,29 +7,117 @@ Gargoyle Gas: #FFCE47
 Eggshell: #FBF8EF
 */
 
-body.index {
+
+/*
+~~~~~INDEX~~~~~
+*/
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  margin: auto;
   background-image: url('../images/sunrise-wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
   background-color: #4598AD;
-  color: #FBF8EF;
-  display: flex;
-  justify-content: center;
+
+  color: #4598AD;
+  font-size: medium;
+  font-family: font-family: 'Montserrat', sans-serif;
 }
 
 main.index {
   background-color: #FBF8EF;
-  padding: 3vh;
 }
 
-header.index {
-  width: 300px;
+header.index h2 {
+  font-size: medium;
 }
 
 header.index img {
   width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px #9BD1E5 solid;
 }
+
+nav.index ol {
+  flex-direction: row;
+}
+
+
+/*
+~~~~~ABOUT~~~~~
+*/
+
+.about {
+  background-color: #FBF8EF;
+  color: darkgray;
+  margin: 0;
+  display: flex;
+
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+}
+
+aside.about {
+  margin: 0;
+  padding: 30px;
+  color: #FBF8EF;
+  background-image: url('../images/sunrise-wallpaper.jpg');
+  background-size: cover;
+  background-position: bottom center;
+
+  height: 100vh;
+  width: 30vw;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+aside.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px #FBF8EF solid;
+}
+
+nav.about {
+  
+}
+
+header.about {
+  flex-wrap: wrap;
+  margin: 10vh;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+header.about img {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px #FFCE47 solid;
+}
+
+header.about p {
+  font-family: ;
+  font-size: smaller;
+}
+
+/*
+~~~~~PORTFOLIO~~~~~
+*/
+
+/*
+~~~~~HOBBIES~~~~~
+*/
