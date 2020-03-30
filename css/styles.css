@@ -1,15 +1,19 @@
-* {
+/* styles.css  */
+
+/* * {
   border: 1px solid blue;
-}
+} */
 
 body {
   margin: 0;
-  background-color: darkgray;
+  background-color: #ffffff;
 }
 
 .nav-bar {
   grid-column: 1 / 3;
   grid-row: 1 / 1 ;
+  background-color: salmon;
+  border: 1px solid black;
 }
 
 .nav-links {
@@ -37,7 +41,7 @@ h2 {
   margin-top: 10px;
 }
 
-/* Layout */
+/* Split Layout */
 .two-sides-container {
   display: grid;
   grid-template-rows: 50px 1/4fr 1fr 50px;
