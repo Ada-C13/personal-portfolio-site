@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Liu+Jian+Mao+Cao|Shadows+Into+Light&display=swap');
+
+html, body {
+  margin: 0;
+  background-color:white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content > section {
+  text-align: center;
+  padding: 2em;
+}
+
+.content > blog{
+  font-family: 'Shadows Into Light', cursive;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+}
+
+.nav li {
+  display: inline;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  color: black;
+  font-size: 18px;
+}
+
+.section {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.footer {
+  font-family: ''Shadows Into Light', cursive;
+  color:crimson;
+  font-size: 8px;
+}
