@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  background-image: url("../images/DJI_0040.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  color:#fffbf0;
+  font-family: 'nanum gothic', sans-serif;
+}
+
+nav {
+  margin-right: 30px;
+  margin-left: auto;
+  text-align: right;
+}
+
+header {
+  background-color:#242124e0;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 30px;
+}
+
+main {
+  background-color: #242124e0;
+  padding: 30px;
+  margin: 30px;
+}
+
+footer {
+  background-color: #242124e0;
+  padding: 30px;
+  margin: 30px;
+}
+
+a {
+  color: #97f0d4;
+}
+
+h2 {
+  border-bottom: #71e5c0 solid 3px;
+} 
+
+h3 {
+  color: #71e5c0;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  width: 300px;
+  margin: 30px;
+  
+}
+
