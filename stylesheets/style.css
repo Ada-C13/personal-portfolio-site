@@ -23,6 +23,10 @@ nav a {
   padding: 30px;
 }
 
+.index-body {
+  background-color: #e3e2de;
+}
+
 .container {
   width: 80%;
   height: 60%;
@@ -96,4 +100,51 @@ footer a {
   font-size: 15px;
   padding: 10px;
   text-align: center;
+}
+
+.blog-body {
+  background-color: #e3e2de;
+}
+
+.blog-head img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+.blog-nav {
+  height: 5%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery-pic {
+  padding: 50px;
+}
+
+figure{
+  width: 300px;
+  margin-bottom: 5px;
+  background-color: white;
+  border: 3px solid black;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+figure img{
+  width: 100%;
+  border: 1px solid black;
+}
+
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+}
+
+.blog-footer {
+  margin-top: 10px;
 }
