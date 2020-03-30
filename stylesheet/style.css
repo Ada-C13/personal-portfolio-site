@@ -196,11 +196,12 @@ footer {
   /* Let's style the wrapper in such away that, 
   it should always be at the center of the browser */
   .wrapper {
-    position: absolute;
+    display: flex;
     top: 100%;
-    left: 50%;
+    left: 85%;
     transform: translate(-50%, -50%);
-    width: 440px;
+    width: 100%;
+    position: absolute;
   }
   
   /* Style the Un-order list by setting its list-style to none */
