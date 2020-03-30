@@ -5,6 +5,7 @@ body {
   background-size: cover;
   color:#fffbf0;
   font-family: 'nanum gothic', sans-serif;
+  display: 
 }
 
 nav {
@@ -33,7 +34,7 @@ footer {
 }
 
 a {
-  color: #71e5c0;
+  color: #97f0d4;
 }
 
 h2 {
@@ -42,4 +43,14 @@ h2 {
 
 h3 {
   color: #71e5c0;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  width: 300px;
+  margin: 30px;
+  
 }
