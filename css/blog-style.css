@@ -1,0 +1,15 @@
+body {
+  margin: 0px;;
+  background-color: teal;
+  color:#fffbf0;
+  font-family: 'nanum gothic', sans-serif;
+  text-align: center;
+}
+
+.rotate90 {
+  -webkit-transform:rotate(900deg);
+  -moz-transform: rotate(900deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
