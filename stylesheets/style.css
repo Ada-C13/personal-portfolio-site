@@ -133,6 +133,23 @@ nav ul {
   margin: 2em auto 0 auto;
 }
 
+.gallery ul li {
+  display: inline-block;
+}
+
+.gallery img {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 300px;
+  height: 300px;
+  border: 10px double #323031;
+  margin: 2em auto 0 auto;
+}
+
+.gallery img:hover {
+  border: 10px double #e7e247;
+}
+
 /* GRID LAYOUT */
 /* 
 * {
@@ -142,7 +159,7 @@ nav ul {
 .container {
   display: grid;
   -ms-display: grid;
-  grid-template: \ auto / 1fr 1fr 1fr;
+  grid-template: auto / 1fr 1fr 1fr;
 }
 
 .header {
@@ -156,6 +173,7 @@ nav ul {
 
 .content {
   grid-column: 1 / 4;
+  justify-self: center;
   margin: 2em 0 2em 0;
 }
 
