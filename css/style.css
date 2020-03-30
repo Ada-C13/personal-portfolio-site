@@ -1,0 +1,35 @@
+/*
+Shimmering Blush: #E0829B
+Light Cyan: #D1FAFF
+Pale Cerulean: #9BD1E5
+Verdigris: #4598AD
+Gargoyle Gas: #FFCE47
+Eggshell: #FBF8EF
+*/
+
+body.index {
+  background-image: url('../images/sunrise-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-color: #4598AD;
+  color: #FBF8EF;
+  display: flex;
+  justify-content: center;
+}
+
+main.index {
+  background-color: #FBF8EF;
+  padding: 3vh;
+}
+
+header.index {
+  width: 300px;
+}
+
+header.index img {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px #9BD1E5 solid;
+}
