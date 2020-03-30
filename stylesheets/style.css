@@ -176,10 +176,6 @@ nav ul {
 
 /* GRID LAYOUT */
 
-/* * {
-  border: 1px solid black;
-} */
-
 .container {
   display: grid;
   -ms-display: grid;
@@ -198,7 +194,7 @@ nav ul {
 .content {
   grid-column: 1 / 4;
   justify-self: center;
-  margin: 2em 0 2em 0;
+  margin: 2em 0 3em 0;
 }
 
 .footer {
