@@ -40,6 +40,46 @@ nav a {
  margin-top: 120px;
 }
 
+.portfolio-body {
+  background-color: #e3e2de;
+}
+
+.proj-photo {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+.proj-head {
+  padding: 15px;
+  margin: 15px;
+}
+
+.sub-head {
+  color: black;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.proj-head div a{
+  color: #e36698;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
 footer {
   background-color: black;
   text-align: center;
