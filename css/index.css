@@ -1,0 +1,115 @@
+@import "style.css";
+
+body {
+  background: #FFFFFF;
+}
+
+/* Beginning of clickWheel animation styling */
+
+/* .Iam describes the whole block of content */
+.Iam {
+  position: relative;
+  top: 35vh;
+  right: 0vh;
+  bottom: 1vh;
+  left: 10vh;
+  color: #000000;
+}
+
+.Iam h1 {
+  margin: 10px;
+}
+
+.Iam h3 {
+  margin: 10px;
+  height: 0px;
+  float: left;
+}
+
+.Iam h4 {
+  margin: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+}
+
+.Iam b {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  top: 15vh;
+
+/*animation*/
+-webkit-animation:move 5s;
+   -moz-animation:move 5s;
+    -ms-animation:move 5s;
+     -o-animation:move 5s;
+        animation:move 5s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+   -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+     -o-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+   -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+     -o-animation-delay:1s;
+        animation-delay:1s;
+}
+
+.Iam a {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  height: 50px;
+  text-decoration: none;
+}
+
+.Iam a:visited {
+  color: black;
+  text-decoration: none
+}
+
+
+
+@keyframes move{
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; }
+} 
