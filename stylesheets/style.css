@@ -1,23 +1,26 @@
-header {
+.page-head {
   background-color: #e3e2de;
+  width: 100%;
+  height: 500px;
 }
 .header-img {
   display: block;
   margin: auto;
-  width: 60%;
-  padding: 20px;
+  width: 100%;
+  padding-top: 100px;
 }
 
 nav{
   background-color: black;
   text-align: center;
+  padding: 50px;
 }
 
 nav a {
   color: white;
   font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 40px;
+  padding: 100px;
 }
 
 .container {
@@ -40,10 +43,13 @@ nav a {
 footer {
   background-color: black;
   text-align: center;
+  height: 100px;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
+  padding: 30px;
 }
+
 footer a {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
