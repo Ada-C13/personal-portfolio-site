@@ -138,6 +138,7 @@ nav ul {
     height: 100px;
     background-color: #e7e247;
     color: #323031;
+    margin: .25em;
     padding: .25em;
   }
 
@@ -178,7 +179,6 @@ nav ul {
 
 .container {
   display: grid;
-  -ms-display: grid;
   grid-template: auto / 1fr 1fr 1fr;
 }
 
