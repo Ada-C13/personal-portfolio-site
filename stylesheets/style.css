@@ -28,6 +28,11 @@ Sandstorm: #e7e247
 
 /* BASIC STYLES */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #323031;
   color: #fff;
@@ -37,52 +42,71 @@ body {
 h1 {
   color: #ef2d56;
   font-family: 'Walter Turncoat', cursive;
+  font-size: 3.1em;
+  text-align: center;
 }
-
-  h1 a {
-    color: #ef2d56;
-  }
-
-  h1 a:hover {
-    color: #e7e247;
-    transition: color 0.35s ease-in-out;
-  }
 
 h2 {
   color: #f87060;
   font-family: 'Walter Turncoat', cursive;
+  text-align: center;
 }
 
 a {
-  color: #e7e247;
+  color: #ef2d56;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ef2d56;
-  transition: color 0.35s ease-in-out;
+  color: #e7e247;
+  transition: color .5s ease-in-out;
+}
+
+.active {
+  background-color: #323031;
+  color: #e7e247;
 }
 
 nav ul {
   list-style: none;
+  text-align: center;
 }
 
+  nav ul li a {
+    display: block;
+    width: 100%;
+    background-color: #e7e247;
+    color: #323031;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 3em;
+  }
+
+  nav ul li a:hover {
+    background-color: #323031;
+    color: #e7e247;
+    transition: background-color .5s ease-in-out;
+  }
+
 /* LAYOUT */
+
+/* * {
+  border: 1px solid black;
+} */
 
 .container {
   display: grid;
   -ms-display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: auto / 1fr 1fr 1fr;
 }
 
 .header {
-  grid-row: 1 / 2;
-  grid-column: 1 / 4;
+  grid-column: 2 / 3;
+  justify-self: start;
 }
 
 .nav {
-  grid-row: 2 / 3;
   grid-column: 1 / 4;
+  margin: 2em 0 2em 0;
 }
 
 .topbar-nav {
@@ -91,6 +115,14 @@ nav ul {
 
 .footer {
   grid-column: 1 / 4;
+  padding: 3em;
 }
 
 /* IMAGES */
+
+#icon {
+  display: block;
+  width: 60%;
+  border-radius: 50%;
+  margin: auto;
+}
