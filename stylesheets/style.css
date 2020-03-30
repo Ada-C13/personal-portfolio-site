@@ -1,4 +1,4 @@
-/* Color palette: https://coolors.co/323031-424b54-ef2d56-f87060-e7e247
+/* Palette: https://coolors.co/323031-424b54-ef2d56-f87060-e7e247
 Jet: #323031 
 Outer Space: #424b54
 Amaranth: #ef2d56
@@ -28,6 +28,7 @@ Sandstorm: #e7e247
 
 /* BASIC STYLES */
 
+/* Removes margin and padding from all elements so they are flush with the edge of the page by default */
 * {
   margin: 0;
   padding: 0;
@@ -39,11 +40,14 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3 {
+  font-family: 'Walter Turncoat', cursive;
+  text-align: center;
+}
+
 h1 {
   color: #ef2d56;
-  font-family: 'Walter Turncoat', cursive;
   font-size: 3.5em;
-  text-align: center;
 }
 
   h1 a {
@@ -56,15 +60,17 @@ h1 {
     transition: color .35s ease-in-out;
   }
 
-h2, h3 {
+h2 {
   color: #f87060;
-  font-family: 'Walter Turncoat', cursive;
-  text-align: center;
 }
 
 section h2 {
   color: #e7e247;
   font-size: 3em;
+}
+
+h3 {
+  color: #fff;
 }
 
 p {
@@ -123,6 +129,10 @@ nav ul {
     display: inline-block;
   }
 
+  .topbar nav ul li a {
+    margin: 0 .25em;
+  }
+
 /* PORTFOLIO ITEMS */
 
 .projects ul li {
@@ -135,18 +145,40 @@ nav ul {
     display: block;
     width: 100px;
     height: 100px;
-    background-color: #e7e247;
     color: #323031;
     margin: .25em;
     padding: .25em;
   }
 
-  .projects ul li a:hover {
-    background-color: #ef2d56;
-    color: #e7e247;
-    transition: background-color .5s ease-in-out;
-  }
+#ruby ul li a {
+  background-color: #ef2d56;
+}
 
+#ruby ul li a:hover {
+  background-color: #323031;
+  color: #ef2d56;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
+
+#html-css ul li a {
+  background-color: #f87060;
+}
+
+#html-css ul li a:hover {
+  background-color: #323031;
+  color: #f87060;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
+
+#javascript ul li a {
+  background-color: #e7e247;
+}
+
+#javascript ul li a:hover {
+  background-color: #323031;
+  color: #e7e247;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
 
 /* IMAGES */
 
