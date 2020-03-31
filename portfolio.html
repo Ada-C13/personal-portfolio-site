@@ -2,23 +2,37 @@
 <html>
   <head>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
   </head>
   <body>
-    <aside>
-      <img src="images/head-shot-green-bush.jpg" alt="Alicia in front of lush greenery">
-      <h1>Alicia Combs</h1>
-      <h2>Software Engineer</h2>
-      <nav>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="hobbies.html">Hobbies</a></li>
-        </ol>
-      </nav>
+    <aside class="portfolio">
+      <div>
+        <img src="images/head-shot-green-bush.jpg" alt="Alicia in front of lush greenery">
+        <h1 class="sidenav">Alicia Combs</h1>
+        <h2 class="sidenav">Software Engineer</h2>
+        <nav class="sidenav">
+          <a class="home" href="index.html">Home</a>
+          <a class="about" href="about.html">About Me</a>
+          <a class="hobbies" href="hobbies.html">Hobbies</a>
+        </nav>
+      </div>
     </aside>
-    <main>
-      <header></header>
+    <main class="portfolio">
+      <header>
+        <h1>Portfolio</h1>
+      </header>
+      <div class="container">
+        <article>
+          <a href="https://github.com/aecombs/hotel">Hotel</a>
+        </article>
+        <article>
+          <a href="https://github.com/aecombs/oo-ride-share">Object-Oriented Ride Share</a>
+        </article>
+        <article>
+          <a href="https://github.com/aecombs/calculator">Calculator</a>
+        </article>
+      </div>
     </main>
     <footer></footer>
   </body>
