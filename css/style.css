@@ -41,6 +41,10 @@ nav {
   width: 17rem;
 }
 
+footer {
+  padding-top: 20px;
+}
+
 aside.about, aside.portfolio, aside.hobbies {
   display: flex;
   margin: 0;
@@ -113,11 +117,6 @@ a.home {
   border-radius: 50%;
   font-size: 0;
 }
-
-/* a.home:hover {
-  font-size: medium;
-  color: rgb(84, 84, 84);
-} */
 
 a.about {
   background: url(../images/sunset-ocean.jpg);
