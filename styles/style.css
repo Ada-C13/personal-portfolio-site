@@ -90,6 +90,15 @@
     font-size: 15px;
     margin-left: 10px;
   }
+
+  @keyframes typewriter {
+    0%, 100% {
+      width: 1em;
+    }
+    20%, 80% {
+      width: 28.3em;
+    }
+  }
 }
 
 /* Reference: https://medium.com/@valentyn.vasylenko/typewriter-effect-with-alternating-text-in-pure-css3-72cf0c7e6c5 */
