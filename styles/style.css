@@ -1,9 +1,9 @@
-/* Palette: https://coolors.co/323031-424b54-ef2d56-f87060-e7e247
+/* Palette: https://coolors.co/323031-ef2d56-e7e247-937aef-dce0fa
 Jet: #323031 
-Outer Space: #424b54
 Amaranth: #ef2d56
-Bittersweet: #f87060
 Sandstorm: #e7e247
+Medium Purple: #937aef
+Azurish White: #dce0fa
 */
 
 /* FONTS */
@@ -61,7 +61,7 @@ h1 {
   }
 
 h2 {
-  color: #f87060;
+  color: #dce0fa;
 }
 
 section h2 {
@@ -71,6 +71,7 @@ section h2 {
 
 h3 {
   color: #fff;
+  font-size: 1.5em;
 }
 
 p {
@@ -161,12 +162,12 @@ nav ul {
 }
 
 #html-css ul li a {
-  background-color: #f87060;
+  background-color: #937aef;
 }
 
 #html-css ul li a:hover {
   background-color: #323031;
-  color: #f87060;
+  color: #937aef;
   transition: color .5s ease-in-out background-color .5s ease-in-out;
 }
 
@@ -203,7 +204,8 @@ nav ul {
 }
 
 .gallery img:hover {
-  border: 10px double #e7e247;
+  border: 10px double #ef2d56;
+  transition: border .5s ease-in-out;
 }
 
 /* GRID LAYOUT */
@@ -236,5 +238,6 @@ nav ul {
 .projects {
   display: grid;
   justify-content: center;
-  margin: 1em 0;
+  max-inline-size: 480px;
+  margin: 2em 0;
 }
