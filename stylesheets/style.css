@@ -1,0 +1,150 @@
+.page-head {
+  background-color: #e3e2de;
+  width: 100%;
+  height: 500px;
+}
+.header-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-top: 100px;
+}
+
+nav{
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+nav a {
+  color: white;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 30px;
+}
+
+.index-body {
+  background-color: #e3e2de;
+}
+
+.container {
+  width: 80%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: 65% 60%;
+  background-color: #e3e2de;
+}
+.index-img {
+  width: 100%;
+  background-color: #e3e2de;
+}
+
+.quick-bio{
+ width: 100%;
+ margin-top: 120px;
+}
+
+.portfolio-body {
+  background-color: #e3e2de;
+}
+
+.proj-photo {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+.proj-head {
+  padding: 15px;
+  margin: 15px;
+}
+
+.sub-head {
+  color: black;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.proj-head div a{
+  color: #e36698;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  padding: 30px;
+}
+
+footer a {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-body {
+  background-color: #e3e2de;
+}
+
+.blog-head img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding-top: 10px;
+}
+.blog-nav {
+  height: 5%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery-pic {
+  padding: 50px;
+}
+
+figure{
+  width: 300px;
+  margin-bottom: 5px;
+  background-color: white;
+  border: 3px solid black;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+figure img{
+  width: 100%;
+  border: 1px solid black;
+}
+
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+}
+
+.blog-footer {
+  margin-top: 10px;
+}
