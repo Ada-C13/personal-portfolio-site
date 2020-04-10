@@ -22,6 +22,11 @@ Gunmetal: #2C3539
   border-radius: 1%;
 }
 
+strong {
+  color: black;
+  text-shadow: unset;
+}
+
 body {
   display: flex;
   margin: 0;
