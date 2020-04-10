@@ -230,6 +230,10 @@ nav ul {
   margin: 2em 0 3em 0;
 }
 
+  .content#about {
+    padding: 0 3em;
+  }
+
 .footer {
   grid-column: 1 / 4;
   padding: 3em;
