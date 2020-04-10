@@ -1,8 +1,17 @@
 main {
   position: absolute;
-  top: 200px;
+  top: 150px;
   width: 100%;
   color: #4e5151;
+}
+
+main > div {
+  margin: 0;
+  padding: 50px 100px 50px 100px;
+}
+
+main > div:nth-child(even) {
+  background-color: #f4f4f4;
 }
 
 .underline {
@@ -11,8 +20,8 @@ main {
 
 
 .journal {
-  margin: 0px 100px 30px 100px;
-  padding-bottom: 70px;
+  /* margin: 0px 100px 30px 100px; */
+  /* padding-bottom: 70px; */
   display: flex;
   flex-direction: column;
   line-height: 1.8;
@@ -29,16 +38,9 @@ time {
   margin-right: 10px;
 }
 
-
-@media only screen and (max-width: 992px) {
-  .journal {
-    margin: 0px 50px;
-  }
-}
-
-
 @media only screen and (max-width: 600px) {
-  .journal {
-    margin: 10px;
+  main > div {
+    padding: 30px 50px 30px 50px;
+    margin: 0;
   }
 }

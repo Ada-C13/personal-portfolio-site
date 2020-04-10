@@ -92,10 +92,10 @@
 /* animation  */
 @keyframes typewriter {
   0%, 100% {
-    width: 3em;
+    width: 1em;
   }
   20%, 80% {
-    width: 25.3em;
+    width: 30.3em;
   }
 }
 
