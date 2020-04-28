@@ -23,23 +23,23 @@ footer img {
   padding: 0 5px 0 20px;
 }
 
-
 .contact ul {
   margin-right: 20px;
   padding-bottom: 20px;
 }
 
 .contact li {
- margin-top: 5px;
+  margin-top: 5px;
 }
 
 .contact li:last-of-type {
-  margin-right: 20px;
- }
+  margin-right: 60px;
+}
 
 .contact li a {
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
 
 .contact li a:hover {
@@ -48,16 +48,19 @@ footer img {
 
 #copyright {
   position: fixed;
-  left: 50px;
+  left: 80px;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 768px) {
   #copyright {
     display: none;
   }
   
   .contact li {
-    padding-left: 20px;
+    /* padding-left: 30px; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer {
@@ -65,7 +68,11 @@ footer img {
     height: auto;
   }
 
-  #copyright {
-    left: 10px;
+  footer img {
+    display: none;
+  }
+
+  .contact li:last-of-type {
+    margin-right: 30px;
   }
 }
