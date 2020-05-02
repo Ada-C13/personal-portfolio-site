@@ -5,6 +5,11 @@ main {
   color: #4e5151;
 }
 
+
+h1 {
+  width: 100%;
+}
+
 main > div {
   margin: 0;
   padding: 50px 100px 50px 100px;
