@@ -59,6 +59,22 @@
   line-height: 250px;
 }
 
+#about:hover {
+  background-image: url("../images/avatar.svg");
+  background-size: 100%;
+}
+
+#portfolio:hover {
+  background-image: url("../images/portfolio_bg.svg");
+  background-color: transparent;
+}
+
+#blog:hover {
+  background-image: url("../images/blog_bg.svg");
+  background-size: 100%;
+  background-color: transparent;
+
+}
 
 @media only screen and (max-width: 768px) {
   #job-title {
