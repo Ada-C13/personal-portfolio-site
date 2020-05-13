@@ -59,6 +59,7 @@ h2 {
 }
 
 .footer {
+  /* background-color: grey; */
   grid-column: 1 / 3;
   grid-row: 4 / 4 ;
 }
