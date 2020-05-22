@@ -1,0 +1,61 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.intro{
+  background-color: gray;
+}
+
+.intro ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;o
+  background-color: gray
+}
+
+.intro li {
+  float: left;
+}
+
+.intro li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.intro li a:hover {
+  background-color: lightgray;
+}
+
+.active {
+  background-color: lightsalmon;
+}
+
+.body-intro {
+  background-color: cornsilk;
+  padding: 1em;
+  color:black;
+  background-size: cover;
+  border: 2px solid gray;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.body-intro ::first-letter {
+  font-size: 2rem;
+  font-style: italic;
+}
+.laptop-image {
+  background-image: url(../Images/home-laptop.jpg);
+  background-size: cover;
+  height: 500px;
+  
+}
+
+.laptop-image a{
+  display: flex;
+  flex-direction: column; 
+}

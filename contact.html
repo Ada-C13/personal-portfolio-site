@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="styles/contact.css">
+</head>
+
+<body>
+  <!-- Navigation sections that contains links -->
+  <section class = "intro">
+    <nav>
+      <ul>
+        <li><a href= "./index.html">Home</a></li>
+        <li><a href= "./about.html">About</a></li>
+        <li><a href= "./portfolio.html">Portfolio</a></li>
+        <li><a href= "./code-journal.html">Code-journal</a></li>
+        <li><a href= "./hobby.html">Hobby</a></li>
+        <li><a class= "active" href= "./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+  
+  <!-- social media contact -->
+  <section class="container">
+    <div class="lak-image">
+      <img src="images/lak.jpg" alt="lak">
+    </div>
+
+    <div class="logo">
+      <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+      <a href="https://www.linkedin.com"><img src="Images/linkedin.png" alt="linkedin"></a>
+      <a href="https://twitter.com"><img src="Images/twitter.png" alt="twitter"></a>
+      <a href="https://instagram.com"><img src="Images/instagram.png" alt="instagram"></a>
+    </div>
+
+  </section>
+
+  <!-- Contact via sending messages -->
+  <section class="contact">
+    <form class = "cols" action="action_page.php">
+      <div class = "row1">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="email">
+      </div>
+      <div class = "row2">
+      <label for="Message">Message</label>
+      <textarea id="Message" name="message" placeholder="Write your message here..."></textarea>
+    </div>
+    <div class="send">
+      <input style = "background-color: red;" type="submit" value="Send Message">
+    </div>
+  </form>
+  </section>
+    
+  <footer style="text-align: center" class= "copyright">
+    <p>Copyright 2020 Tithvorlak Mok. All rights reserved.</p>
+  </footer>
+</body>
+</html>
