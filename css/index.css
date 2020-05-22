@@ -1,0 +1,49 @@
+.bio {
+  font-size: 1.3em;
+}
+
+#buttons {
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 100px auto;
+}
+#buttons div {
+  border: 3px solid #cb521a;
+  border-radius: 100%;
+}
+
+#buttons a > * {
+  width: 230px;
+  height: 230px;
+  border: 1px solid transparent;
+}
+
+#buttons h2 {
+  display: inline;
+  position: absolute;
+  transform: rotate(-10deg);
+  margin: -52px -6px;
+  text-align: center;
+}
+
+.hover-img {
+  display: none;
+}
+
+#buttons > div:hover .initial-img {
+  display: none;
+}
+
+#buttons > div:hover .hover-img {
+  display: block;
+  background-size: contain;
+  text-align: center;
+}
+
+#buttons > div:hover .tiki {
+  background-image: url('../images/tiki-yell.png');
+}
+
+#buttons > div:hover .rorschach {
+  background-image: url('../images/rory-scream.png');
+}
