@@ -1,0 +1,247 @@
+/* Palette: https://coolors.co/323031-ef2d56-e7e247-937aef-dce0fa
+Jet: #323031 
+Amaranth: #ef2d56
+Sandstorm: #e7e247
+Medium Purple: #937aef
+Azurish White: #dce0fa
+*/
+
+/* FONTS */
+
+/* Code generated using Font Squirrel's Webfont Generator (https://www.fontsquirrel.com/tools/webfont-generator) */
+
+@font-face {
+  font-family: 'Walter Turncoat';
+  src: url('../fonts/walterturncoat-regular-webfont.woff2') format('woff2'),
+       url('../fonts/walterturncoat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+       url('../fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* BASIC STYLES */
+
+/* Removes margin and padding from all elements so they are flush with the edge of the page by default */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #323031;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Walter Turncoat', cursive;
+  text-align: center;
+}
+
+h1 {
+  color: #ef2d56;
+  font-size: 3.5em;
+}
+
+  h1 a {
+    color: #ef2d56;
+    text-decoration: none;
+  }
+
+  h1 a:hover {
+    color: #e7e247;
+    transition: color .35s ease-in-out;
+  }
+
+h2 {
+  color: #dce0fa;
+}
+
+section h2 {
+  color: #e7e247;
+  font-size: 3em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 2em 3em;
+}
+
+a {
+  color: #e7e247;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef2d56;
+  transition: color .35s ease-in-out;
+}
+
+a.active {
+  color: #ef2d56;
+}
+
+/* NAV MENU */
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+  nav ul li {
+    padding: 0 .25em;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    background-color: #e7e247;
+    color: #323031;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 3em;
+    padding: .25em 0;
+  }
+
+  nav ul li a:hover {
+    background-color: #323031;
+    color: #e7e247;
+    transition: background-color .5s ease-in-out;
+  }
+
+.topbar nav {
+  background-color: #e7e247;
+  font-family: 'Walter Turncoat', cursive;
+  font-size: .75em;
+  text-align: right;
+}
+
+  .topbar nav ul li {
+    display: inline-block;
+  }
+
+  .topbar nav ul li a {
+    margin: 0 .25em;
+  }
+
+/* PORTFOLIO ITEMS */
+
+.projects ul li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+  .projects ul li a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: #323031;
+    margin: .25em;
+    padding: .25em;
+  }
+
+#ruby ul li a {
+  background-color: #ef2d56;
+}
+
+#ruby ul li a:hover {
+  background-color: #323031;
+  color: #ef2d56;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
+
+#html-css ul li a {
+  background-color: #937aef;
+}
+
+#html-css ul li a:hover {
+  background-color: #323031;
+  color: #937aef;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
+
+#javascript ul li a {
+  background-color: #e7e247;
+}
+
+#javascript ul li a:hover {
+  background-color: #323031;
+  color: #e7e247;
+  transition: color .5s ease-in-out background-color .5s ease-in-out;
+}
+
+/* IMAGES */
+
+#icon, #profile {
+  display: block;
+  width: 25%;
+  border-radius: 50%;
+  margin: 2em auto 0 auto;
+}
+
+.gallery ul li {
+  display: inline-block;
+}
+
+.gallery img {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 300px;
+  height: 300px;
+  border: 10px double #323031;
+  margin: 2em auto 0 auto;
+}
+
+.gallery img:hover {
+  border: 10px double #ef2d56;
+  transition: border .5s ease-in-out;
+}
+
+/* GRID LAYOUT */
+
+.container {
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr;
+}
+
+.header {
+  grid-column: 1 / 4;
+}
+
+.nav {
+  grid-column: 1 / 4;
+  margin: 2em 0 2em 0;
+}
+
+.content {
+  grid-column: 1 / 4;
+  justify-self: center;
+  margin: 2em 0 3em 0;
+}
+
+  .content#about {
+    padding: 0 3em;
+  }
+
+.footer {
+  grid-column: 1 / 4;
+  padding: 3em;
+}
+
+.projects {
+  display: grid;
+  justify-content: center;
+  max-inline-size: 480px;
+  margin: 2em 0;
+}
