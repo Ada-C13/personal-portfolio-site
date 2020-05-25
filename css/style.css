@@ -367,6 +367,18 @@ body {
   background-image: url("../img/coffeewithsss-2.jpg"); 
 }
 
+.card__picture--4 {
+  background-image: url("../img/ridesharerails.jpg"); 
+}
+
+.card__picture--5 {
+  background-image: url("../img/mediaranker.jpg"); 
+}
+
+.card__picture--6 {
+  background-image: url("../img/underconstruction.jpg"); 
+}
+
 .card__details {
   padding: 0 3rem;
   text-align: center; }
