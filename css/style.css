@@ -340,6 +340,18 @@ body {
   background-image: linear-gradient(to right bottom, violet, mediumorchid); 
 }
 
+.card__side--back--4 {
+  background-image: linear-gradient(to right bottom, #02a02a, #059d3d);
+}
+
+.card__side--back--5 {
+  background-image: linear-gradient(to right bottom, rgb(250, 110, 85), rgb(245, 65, 20)); 
+}
+
+.card__side--back--6 {
+  background-image: linear-gradient(to right bottom, rgb(172, 163, 172), rgb(78, 77, 78)); 
+}
+
 .card:hover .card__side--front {
   transform: rotateY(-180deg); 
 }
