@@ -440,11 +440,14 @@ body {
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
   font-size: 1rem; 
+  background-color: #FFF;
+  color: #777;
+  margin: 0.3rem;
 }
 
 .btn:hover {
@@ -457,7 +460,6 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
 }
 
-.btn--white {
-  background-color: #FFF;
-  color: #777;
+.btn--2:link, .btn--2:visited {
+  padding: 0.5rem 1.3rem;
 }
