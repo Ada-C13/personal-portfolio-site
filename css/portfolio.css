@@ -1,0 +1,35 @@
+/* portfolio.css  */
+
+.portfolio-container{
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-columns: 1fr;
+}
+
+.project-block{
+  grid-template-rows: 2 / 3;
+  grid-template-columns: 1 /2;
+}
+
+.project-block h1 {
+  padding-left: 1em;
+}
+
+.project-block h3 {
+  text-align: center;
+}
+
+.project-block article {
+  padding: 1em;
+  text-align: center;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  margin: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+

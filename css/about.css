@@ -1,0 +1,19 @@
+/* about.css  */
+
+.left > img {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px black solid;
+}
+
+.fun-facts {
+  padding-left: 5em;
+}
+
+.my-story{
+  padding-right: 3em;
+}

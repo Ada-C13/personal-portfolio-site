@@ -1,0 +1,26 @@
+/* blog.css  */
+
+.blog-container{
+  grid-template-rows: 100px 1fr 50px;
+  grid-template-columns: 1fr;
+}
+
+.blogs-block{
+  grid-template-rows: 2 / 3;
+  grid-template-columns: 1 / 2;
+}
+.blogs-block h1{
+  text-align: center;
+  
+}
+.blogs-block h3{
+  text-align: center;
+  margin-top: .3em;
+  margin-bottom: 2em;
+}
+
+.blogs-block article{
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 3em;
+}
