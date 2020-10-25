@@ -12,7 +12,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -86,21 +86,21 @@ body {
 }
 
 .section-latest h2 {
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 1px solid #888; 
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #888;
   line-height: 0.1em;
-  margin: 10px 0 40px; 
+  margin: 10px 0 40px;
   text-transform: uppercase;
   color: #666;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.08rem;
-} 
+}
 
 .section-latest h2 span {
-  background:#fff; 
-  padding:0 10px; 
+  background: #fff;
+  padding: 0 10px;
 }
 
 .container {
@@ -237,7 +237,7 @@ body {
 .stack__icon {
   font-size: 3rem;
   color: violet;
-  margin: 20px
+  margin: 20px;
 }
 
 .stack__type h3 {
@@ -293,7 +293,7 @@ body {
 .blog-post p {
   font-size: 1.2rem;
   line-height: 1.8rem;
-  margin-top: 20px;;
+  margin-top: 20px;
   padding-bottom: 70px;
   border-bottom: 1px solid rgb(217, 217, 217);
 }
@@ -303,13 +303,13 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 30rem; 
+  height: 30rem;
 }
 
 .card__side {
   font-size: 1rem;
   height: 28rem;
-  transition: all .8s ease;
+  transition: all 0.8s ease;
   position: absolute;
   top: 0;
   left: 0;
@@ -317,15 +317,15 @@ body {
   backface-visibility: hidden;
   border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); 
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
 }
-  
+
 .card__side--front {
-  background-color: #FFF; 
+  background-color: #fff;
 }
 
 .card__side--back {
-  transform: rotateY(180deg); 
+  transform: rotateY(180deg);
 }
 
 .card__side--back--1 {
@@ -333,11 +333,11 @@ body {
 }
 
 .card__side--back--2 {
-  background-image: linear-gradient(to right bottom, orange, darkorange); 
+  background-image: linear-gradient(to right bottom, orange, darkorange);
 }
 
 .card__side--back--3 {
-  background-image: linear-gradient(to right bottom, violet, mediumorchid); 
+  background-image: linear-gradient(to right bottom, violet, mediumorchid);
 }
 
 .card__side--back--4 {
@@ -345,55 +345,64 @@ body {
 }
 
 .card__side--back--5 {
-  background-image: linear-gradient(to right bottom, rgb(250, 110, 85), rgb(245, 65, 20)); 
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(250, 110, 85),
+    rgb(245, 65, 20)
+  );
 }
 
 .card__side--back--6 {
-  background-image: linear-gradient(to right bottom, rgb(172, 163, 172), rgb(78, 77, 78)); 
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(144, 84, 240),
+    rgb(99, 66, 190)
+  );
 }
 
 .card:hover .card__side--front {
-  transform: rotateY(-180deg); 
+  transform: rotateY(-180deg);
 }
 
 .card:hover .card__side--back {
-  transform: rotateY(0); 
+  transform: rotateY(0);
 }
 
 .card__picture {
   background-size: cover;
   height: 15rem;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .card__picture--1 {
-  background-image: url("../img/babychecklist.jpg"); 
+  background-image: url("../img/babychecklist.jpg");
 }
 
 .card__picture--2 {
-  background-image: url("../img/greatrgbgame.jpg"); 
+  background-image: url("../img/greatrgbgame.jpg");
 }
 
 .card__picture--3 {
-  background-image: url("../img/coffeewithsss-2.jpg"); 
+  background-image: url("../img/weeklymenu.png");
 }
 
 .card__picture--4 {
-  background-image: url("../img/ridesharerails.jpg"); 
+  background-image: url("../img/ridesharerails.jpg");
 }
 
 .card__picture--5 {
-  background-image: url("../img/mediaranker.jpg"); 
+  background-image: url("../img/mediaranker.jpg");
 }
 
 .card__picture--6 {
-  background-image: url("../img/underconstruction.jpg"); 
+  background-image: url("../img/welletsy.jpg");
 }
 
 .card__details {
-  padding: 0 3rem;
-  text-align: center; }
+  padding: 0 1rem;
+  text-align: center;
+}
 
 .card__details h3 {
   padding: 20px;
@@ -402,17 +411,17 @@ body {
 .card__details ul {
   list-style: none;
   width: 80%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .card__details ul li {
   text-align: center;
   font-size: 1rem;
-  padding: 0.5rem; 
+  padding: 0.5rem;
 }
 
 .card__details ul li:not(:last-child) {
-  border-bottom: 1px solid #eee; 
+  border-bottom: 1px solid #eee;
 }
 
 .card__cta {
@@ -421,45 +430,48 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-  text-align: center; 
+  text-align: center;
 }
 
 .card__info {
   text-align: center;
-  color: #FFF;
-  margin-bottom: 2rem; 
+  color: #fff;
+  margin-bottom: 2rem;
 }
 
 .card__info__text {
-  font-size: 1rem; }
-  
+  font-size: 1rem;
+}
+
 .card__info__text:not(:last-child) {
   margin-bottom: 12px;
 }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
-  font-size: 1rem; 
-  background-color: #FFF;
+  font-size: 1rem;
+  background-color: #fff;
   color: #777;
   margin: 0.3rem;
 }
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn--2:link, .btn--2:visited {
+.btn--2:link,
+.btn--2:visited {
   padding: 0.5rem 1.3rem;
 }
