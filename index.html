@@ -4,35 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kate's Portfolio</title>
+  
+
   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  
 </head>
 
-<body>
+<body class="main-container">
 
-  <nav class="nav-container">
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="hobby.html">My Hobby</a></li>
+  <nav class="header-container">
+    <ul class="header-links-container">
+      <li class="link"><a href="index.html">Home</a></li>
+      <li class="link"><a href="about.html">About Me</a></li>
+      <li class="link"><a href="portfolio.html">Portfolio</a></li>
+      <li class="link"><a href="hobby.html">My Hobby</a></li>
     </ul>
   </nav>
 
   <section class="content-container">
-    <section>
-      <h1>Hi, I'm Kate and I'm a software developer student.</h1>
-      <p>Welcome to my Personal Portfolio site!</p>
-    </section>
-    <section>
-      <img class="circle" src="images/flowers.jpg" alt="mix of flowers, enlarged">
-    </section>
-
-    <footer class="footer">
-      <span>Kate Pchelina, 2020</span>
-    </footer>
+    <div class="greeting-container">
+      <h1 class="greeting-container-header">My name is Kate and I'm a software development student.</h1>
+      <p class="greeting-container-text">I study programming at Ada Develoers Academy. Currently I am interning at Redfin.</p>
+      <p class="greeting-container-text">TODO: add more info about myself, but for now keep it simple, since it is in the design phase for now.</p>
+      <p class="greeting-container-text">TODO: make the website responsive, account for the medium and small screen sizes.</p>
+      <p class="greeting-container-text">I LOVE COFFEE.</p>
+    </div>
+    <div class="image-container">
+      <img class="circle" src="images/coff.jpg" alt="mix of flowers, enlarged">
+    </div>
   </section>
+
+  <footer class="footer-container">
+    <div>
+      <p>Ekaterina Pchelina, 2020</p>
+    </div>
+    <img class="github" src="images/github-icon.svg" alt="github logo"/>
+    <img class="linkedin" src="images/linkedin-icon.svg" alt="linkedin logo"/>
+    <img class="gmail" src="images/gmail-icon.svg" alt="gmail logo"/>
+    
+  </footer>
   
 </body>
 </html>
