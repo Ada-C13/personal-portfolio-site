@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -59,11 +60,21 @@ a:hover {
   margin-right: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .greeting-container {
+    width: 50%;
+  }
 }
 
 .greeting-container-header {
   padding-bottom: 1.5rem;
   line-height: 2rem;
+  font-weight: bold;
+  color: #00BFB3;
+  font-size: 2rem;
 }
 
 .greeting-container-text {
@@ -71,12 +82,28 @@ a:hover {
   padding-bottom: 1rem;
 }
 
+.portfolio-button {
+  display: inline-block;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: #00BFB3;
+  padding:13px 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+a.portfolio-button:hover {
+  color: white;
+  background-color: #00d3c5;
+}
+
 .image-container {
-  /* box-shadow: 0 10px 6px -6px #777; */
+  width: 50%;
 }
 
 .circle {
-  /* border-radius: 50%; */
+  border-radius: 50%;
   opacity: 0.8;
 }
 
@@ -113,4 +140,20 @@ img.gmail {
   width: 2rem;
   height: 2rem;
   opacity: 0.6;
+}
+
+/* My Skills */
+.about-container {
+  margin-top: 1rem;
+}
+
+.about-heading {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-text {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
 }
