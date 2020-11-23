@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <title>Nataliya Pogodina | Software Developer & Fine Art Photographer</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" property="og:title" content="Nataliya Pogodina | Full Stack Software Developer" />
+  <meta name="type" property="og:type" content="portfolio" />
+  <meta name="description" property=”og:description” content= "A collection of my latest work. Currently into serverless AWS applications (Lambda, DynamoDB, API Gateway) with React front-end." />
+  <meta name="url" property="og:url" content="https://nataliyap.com/" />
+  <meta name="image" property="og:image" content="https://nataliyap.com/img/big-image.jpg" />
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/3eeae9b952.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-header">
+      <ul class="nav-header__menu">
+        <li><a href="index.html"><i class="fas fa-laptop-code"></i></a></li>
+        <li class="push"><a href="about.html">about</a></li>
+        <li><a href="dev.html">dev</a></li>
+        <li><a href="photography.html">photography</a></li>
+        <!-- <li><a href="blog.html">blog</a></li> -->
+        <li><a href="https://github.com/npogodina" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/npogodina/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="big-image"></section>
+
+    <section class="section-intro">
+      <h1>Nataliya, full stack dev & fine art photographer</h1>
+    </section>
+    
+    <section class="section-latest">
+      <h2><span>some of my latest work</span></h2>
+      
+      <div class="container">
+
+        <!-- The following cards were designed based on awesome tutorial by Jonas Schmedtmann.
+             The tutorial is part of his Advanced CSS and Sass course on Udemy:
+             https://www.udemy.com/course/advanced-css-and-sass/ -->  
+        
+        <!-- card 6 -->
+        <div class="card">
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--6"></div>
+            <div class="card__details">
+              <h3>Well Etsy</h3>
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>PostgreSQL</li>
+                <li>Bootstrap 4</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card__side card__side--back card__side--back--6">
+            <div class="card__picture-back card__picture-back--1"></div>
+            <div class="card__cta">
+              <div class="card__info">
+                <p class="card__info__text">
+                  Online platform for listing, selling, reviewing, and buying
+                  a wide variety of products listed by multiple merchants.
+                </p>
+                <p class="card__info__text">
+                  Group project at Ada Developers Academy.
+                </p>
+                <p class="card__info__text">(30 seconds load)</p>
+              </div>
+              <a
+                href="https://well-etsy.herokuapp.com"
+                target="_blank"
+                class="btn btn--white"
+                >Project</a
+              >
+              <a
+                href="https://github.com/sarabrandao21/betsy"
+                target="_blank"
+                class="btn btn--2"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card">
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--3"></div>
+            <div class="card__details">
+              <h3>Weekly Menu</h3>
+              <ul>
+                <li>AWS Lambda | Node.js</li>
+                <li>DynamoDB | API Gateway</li>
+                <li>React.js</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card__side card__side--back card__side--back--5">
+            <div class="card__picture-back card__picture-back--1"></div>
+            <div class="card__cta">
+              <div class="card__info">
+                <p class="card__info__text">
+                  Serverless web app that allows registered users to add
+                  dishes and makes a weekly menu out of them.
+                </p>
+
+                <p class="card__info__text">
+                  Capstone project for Ada Developers Academy.
+                </p>
+              </div>
+              <a
+                href="https://master.dgrpdkkvvvjff.amplifyapp.com/"
+                target="_blank"
+                class="btn btn--white"
+                >Project</a
+              >
+              <a
+                href="https://github.com/npogodina/weekly-menu-sls"
+                target="_blank"
+                class="btn btn--2"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- card 1 -->
+        <div class="card">
+          <div class="card__side card__side--front">
+            <div class="card__picture card__picture--1"></div>
+            <div class="card__details">
+              <h3>Baby Checklist</h3>
+              <ul>
+                <li>JavaScript | jQuery</li>
+                <li>Bootstrap 4</li>
+                <li>Original text content</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card__side card__side--back card__side--back--1">
+            <div class="card__picture-back card__picture-back--1"></div>
+            <div class="card__cta">
+              <div class="card__info">
+                <p class="card__info__text">
+                  Checklist of items to prepare for a newborn baby with an
+                  expense calculator and product links.
+                </p>
+                <p class="card__info__text">
+                  My first personal pre-Ada project. Inspired by my daily
+                  struggles with a newborn and the beauty of Bootstrap 4.
+                </p>
+              </div>
+              <a
+                href="https://babychecklist.net/"
+                target="_blank"
+                class="btn btn--white"
+                >Project</a
+              >
+              <a
+                href="https://github.com/npogodina/Baby-checklist"
+                target="_blank"
+                class="btn btn--2"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      </div> <!-- end of cards container-->
+    </section>
+
+  </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <div>@ 2020 Nataliya Pogodina</div>
+          
+            <nav class="nav-footer">
+              <ul class="nav-footer__menu">
+                <li><a href="about.html">about</a></li>
+                <li><a href="dev.html">dev</a></li>
+                <li><a href="photography.html">photography</a></li>
+                <!-- <li><a href="blog.html">blog</a></li> -->
+              </ul>
+            </nav>
+          
+        <div><span class="footer__sm">Thank you!</span></div>
+      </div>
+    </footer>
+</body>
+</html>
