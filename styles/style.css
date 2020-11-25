@@ -6,16 +6,18 @@
 }
 
 .main-container {
+  /* border: 2px solid magenta; */
   font-family: 'Roboto', sans-serif;
-  font-size: medium;
+  font-size: 1rem;
   margin: 0 auto;
-  width: 1000px;
+  width: 90%;
+  max-width: 1000px;
 }
 
-@media (max-width: 899px) {
+@media (min-width: 899px) {
   .main-container {
-    padding-left: 1rem;
-    width: 500px;
+    width: 70%;
+    font-size: 1.1rem;
   }
 }
 
@@ -30,7 +32,8 @@
 }
 
 .link {
-  margin-right: 40px;
+  /* margin in em is relative to this element font-size (it's 3 * 1.1rem) */
+  margin-right: 3em; 
   list-style-type: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -38,7 +41,7 @@
 
 a {
   text-decoration: none;
-  color: #777;
+  color: black;
 }
 
 a:hover {
@@ -87,10 +90,18 @@ a:hover {
   width: fit-content;
   border-radius: 20px;
   background-color: #00BFB3;
-  padding:13px 30px;
+  padding: .5em 1.25em;
   color: white;
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: .75rem;
 }
 
 a.portfolio-button:hover {
@@ -99,16 +110,20 @@ a.portfolio-button:hover {
 }
 
 .image-container {
-  width: 50%;
+  width: 90%;
+}
+
+@media (min-width: 900px) {
+  .image-container {
+    width: 50%;
+  }
 }
 
 .circle {
-  /* border-radius: 50%; */
-  display: block;
-  margin: 0 auto;
   opacity: 0.9;
   box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
   border-radius: 10px;
+  /* width: 80%; */
 }
 
 .footer-container {
@@ -163,42 +178,12 @@ img.gmail {
 }
 
 /* Portfolio */
-
-/* .portfolio-container {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
-}
-
-@media (min-width: 899px) {
-  .projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-.project {
-  border: solid olive 2px;
-}
-
-@media (min-width: 899px) {
-  .project {
-    width: 32%;
-    
-  }
-} */
-
 .portfolio-container {
   width:100%;
-	border-top: 1px solid #F8F8F8;
-  border-bottom: 1px solid #F8F8F8;
-  padding: 50px 0px;
+	border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 2em 0;
+  margin: 2em 0;
   /* background-color: #F8F8F8; */
 }
 
@@ -207,7 +192,8 @@ img.gmail {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin:20px 0px;
+  margin: 2em 0;
+  /* margin is relative to the font-size and it is 17.6px, because font-size is also 17.6 px or 1.1 rem */
 }
 
 .project-box {
@@ -219,8 +205,8 @@ img.gmail {
 	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
-	padding: 1.5rem 1rem;
-	margin: 10px;
+	padding: 1.5em 1em;
+  margin: 1em;
 	box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
 }
 
@@ -230,4 +216,3 @@ img.gmail {
   opacity: 0.7;
   object-fit: cover;
 }
-
