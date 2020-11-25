@@ -11,13 +11,13 @@
   font-size: 1rem;
   margin: 0 auto;
   width: 90%;
-  max-width: 1000px;
+  max-width: 980px;
 }
 
 @media (min-width: 899px) {
   .main-container {
     width: 70%;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
