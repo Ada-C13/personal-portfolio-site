@@ -23,17 +23,26 @@
 
 .header-container {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .header-links-container {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  
+}
+
+@media (min-width: 899px) {
+  .header-links-container {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .link {
   /* margin in em is relative to this element font-size (it's 3 * 1.1rem) */
   margin-right: 3em; 
+  margin-bottom: .5rem;
   list-style-type: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -41,7 +50,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: darkolivegreen;
 }
 
 a:hover {
@@ -56,28 +65,30 @@ a:hover {
 @media (min-width: 900px) {
   .content-container {
     flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
   }
 }
 
 .greeting-container {
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .greeting-container {
     width: 50%;
   }
-}
+} */
 
 .greeting-container-header {
   padding-bottom: 1.5rem;
   line-height: 2rem;
   font-weight: bold;
-  color: #00BFB3;
-  font-size: 2rem;
+  /* color: #00BFB3; */
+  font-size: 1.3rem;
 }
 
 .greeting-container-text {
@@ -89,11 +100,14 @@ a:hover {
   display: inline-block;
   width: fit-content;
   border-radius: 20px;
-  background-color: #00BFB3;
+  /* background-color: #00BFB3; */
+  /* background-color: rgb(62, 97, 97); */
+  background-color: #485460;
   padding: .5em 1.25em;
   color: white;
   font-weight: bold;
   margin-bottom: 2rem;
+  margin-top: .5rem;
 }
 
 .btn-big {
@@ -106,23 +120,26 @@ a:hover {
 
 a.portfolio-button:hover {
   color: white;
-  background-color: #00d3c5;
+  /* background-color: #00d3c5; */
+  background-color: #596275;
 }
 
 .image-container {
   width: 90%;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 900px) {
   .image-container {
-    width: 50%;
+    width: 30%;
+    margin-right: 2rem;
   }
 }
 
 .circle {
-  opacity: 0.9;
+  /* opacity: 0.9; */
   box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
-  border-radius: 10px;
+  border-radius: 50%;
   /* width: 80%; */
 }
 
@@ -142,22 +159,22 @@ a.portfolio-button:hover {
 }
 
 img.github {
-  width: 3rem;
-  height: 3rem;
+  width: 2.2rem;
+  height: 2.2rem;
   opacity: 0.6;
   margin-right: 0.5rem;
 }
 
 img.linkedin {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   opacity: 0.6;
   margin-right: 0.9rem;
 }
 
 img.gmail {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   opacity: 0.6;
 }
 
